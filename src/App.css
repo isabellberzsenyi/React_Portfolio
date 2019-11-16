@@ -1,0 +1,334 @@
+:root {
+  --space: 1.5em 0;
+  --space: 2em 0;
+}
+
+button {
+  text-align: center;
+}
+.Site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.Site-content {
+  flex: 1 0 auto;
+  padding: 0;
+  width: 100%;
+}
+.Site-content:after {
+  content: "\00a0";
+  display: block;
+  margin-top: var(--space);
+  height: 0;
+  visibility: hidden;
+}
+.navLink {
+  color: black;
+}
+
+.navLink:hover {
+  color: red;
+}
+
+ul {
+  padding: 0;
+}
+
+li a:hover {
+  color: green;
+  text-decoration: none;
+}
+li a:active {
+  text-decoration: none;
+}
+
+h3 {
+  position: relative;
+  font-size: 30px;
+  z-index: 1;
+  overflow: hidden;
+  text-align: left;
+}
+h3:after {
+  position: absolute;
+  top: 60%;
+  overflow: hidden;
+  height: 1px;
+  width: 100%;
+  content: "\a0";
+  background-color: black;
+  margin-left: 0.5em;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  background-color: "blue";
+}
+
+/* To Do List */
+
+.ToDo {
+  padding: 50px;
+  background-color: #f2ca80;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  text-align: center;
+}
+
+.add,
+.remove,
+.startTimer,
+.restartTimer {
+  background-color: #d98032;
+  color: white;
+  border: 1px solid #d98032;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pomodoro {
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 15px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.startTimer,
+.restartTimer {
+  width: auto;
+  padding: 5px;
+}
+
+.add:hover,
+.remove:hover,
+.startTimer:hover,
+.restartTimer:hover {
+  cursor: pointer;
+  background-color: #f2b544;
+  color: #d98032;
+}
+
+.time {
+  margin: auto;
+  color: #d98032;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.text-area {
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #d98032;
+  border-radius: 5px;
+}
+
+.task {
+  background-color: #f2b544;
+  border: 1px solid #f2b544;
+  width: 400px;
+  height: 60px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #d98032;
+  font-weight: bolder;
+}
+
+.task:hover {
+  background-color: #d98032;
+  cursor: pointer;
+  color: #f2f2f2;
+}
+
+.todo-form input {
+  width: 75%;
+}
+
+/* Calculator */
+.Calculator-App {
+  background-color: teal;
+  margin: auto;
+  padding-top: 2em;
+  height: 600px;
+  width: 600px;
+  text-align: center;
+}
+.button button {
+  width: 75px;
+  height: 75px;
+  color: white;
+  background-color: lightblue;
+  border: 1px solid darkblue;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.button button:hover {
+  cursor: pointer;
+  background-color: darkblue;
+}
+
+.result {
+  background-color: white;
+  color: black;
+  border: 4px solid black;
+  width: 300px;
+  height: 75px;
+  margin: auto;
+  font-size: 20px;
+}
+
+/* Tic Tac Toe */
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: pink;
+  border: 1px solid black;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 75px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 75px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.square:hover {
+  background-color: white;
+  color: maroon;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  font: 20px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.moves {
+  width: 250px;
+  height: 75px;
+  margin-top: 1em;
+  background-color: pink;
+}
+.moves:hover {
+  background-color: white;
+  color: maroon;
+}
+
+/* Weather App */
+.WeatherApp {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.form {
+  margin: auto;
+  text-align: left;
+}
+
+.form input {
+  outline: none;
+  background-color: transparent;
+  border: 0;
+  width: 30%;
+  margin: 20px;
+  border-bottom: 1px solid darkblue;
+  font-size: 25px;
+  height: 60px;
+  text-align: center;
+}
+
+.forminput: -webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px lightblue inset;
+  -webkit-text-fill-color: black !important;
+}
+
+.form input:active {
+  background-color: transparent;
+}
+
+.form button {
+  background-color: teal;
+  border: 2px solid teal;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 50px;
+  width: 75px;
+}
+
+.form button:hover {
+  background-color: white;
+  color: teal;
+}
+
+.weather_info {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.weather_key {
+  color: olive;
+  padding: 20px 0 20px 0;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 2px solid olive;
+  width: 80%;
+}
+
+.weather_key:last-child {
+  border: 0;
+}
+
+.weather_value {
+  color: black;
+  font-weight: bold;
+}
+
+.weather_error {
+  color: black;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
