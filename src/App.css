@@ -1,7 +1,21 @@
-:root {
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.footer-icon {
+  margin-left: 15px;
+  color: teal;
+}
+.footer-icon:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+/* :root {
   --space: 1.5em 0;
   --space: 2em 0;
-}
+} */
 
 button {
   text-align: center;
@@ -10,25 +24,49 @@ button {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: white;
 }
 .Site-content {
   flex: 1 0 auto;
   padding: 0;
   width: 100%;
 }
+
 .Site-content:after {
   content: "\00a0";
   display: block;
-  margin-top: var(--space);
   height: 0;
   visibility: hidden;
 }
-.navLink {
-  color: black;
+.navigation-header a {
+  color: teal;
 }
 
-.navLink:hover {
-  color: red;
+.navigation-header a:hover {
+  color: lightblue;
+}
+.navLinkActive {
+  color: teal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navLinkNonActive {
+  color: lightblue;
+  text-transform: uppercase;
+}
+.navLinkActive:hover,
+.navLinkNonActive:hover {
+  color: teal;
+}
+
+.dropdown {
+  text-transform: uppercase;
+  color: lightblue;
+}
+
+.dropdown:hover {
+  color: teal;
 }
 
 ul {
@@ -59,14 +97,6 @@ h3:after {
   content: "\a0";
   background-color: black;
   margin-left: 0.5em;
-}
-a,
-a:hover {
-  text-decoration: none;
-}
-
-.learn-more:hover {
-  background-color: "blue";
 }
 
 /* To Do List */
@@ -331,4 +361,43 @@ a:hover {
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: bold;
+}
+
+/* Contact Page */
+.contact-icon {
+  color: teal;
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+.contact-icon:hover {
+  color: lightblue;
+}
+
+.icon-background {
+  height: 100px;
+  background-color: lightblue;
+  border-radius: 50%;
+  width: 100px;
+  margin: auto;
+}
+
+.icon-background:hover {
+  background-color: teal;
+}
+
+.contact-links {
+  text-transform: uppercase;
+  color: teal;
+}
+
+/* Resume */
+.resume-collapse {
+  color: lightblue;
+}
+
+.resume-collapse:hover {
+  cursor: pointer;
+  color: teal;
 }

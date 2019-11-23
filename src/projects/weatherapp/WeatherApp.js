@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Titles from "./titles";
 import Form from "./form";
 import Weather from "./weather";
-import "./WeatherApp.css";
 
 const API_KEY = "5c9bb1f900406da84cef29b1178800f5";
 

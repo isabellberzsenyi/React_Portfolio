@@ -7,26 +7,24 @@ class About extends Component {
   render() {
     return (
       <div>
-        <Container>
-          <Row style={{ paddingTop: "2em", listStyle: "none" }}>
-            <Col
-              md={{ size: 6, offset: 1 }}
-              style={{
-                marginTop: "auto",
-                marginBottom: "auto"
-              }}
-            >
+        <Navigation active="about" />
+        <Container style={{ paddingTop: "3em" }}>
+          <Row style={{ listStyle: "none", paddingTop: "0" }}>
+            <Col md={{ size: 6, offset: 1, paddingTop: "0" }}>
               <img
                 src={require("./../img/me2.jpg")}
                 alt="izzy"
                 className="izzy-picture"
-                style={{ width: "100%", height: "300px" }}
+                style={{ width: "100%", height: "250px" }}
               />
             </Col>
-            <Col md={{ size: 4 }} style={{ textAlign: "center" }}>
+            <Col
+              md={{ size: 4 }}
+              style={{ textAlign: "center", paddingTop: "0" }}
+            >
               <h2 style={{ textTransform: "uppercase" }}>Meet izzy!</h2>
               <ul style={{ textAlign: "left", paddingLeft: "2em" }}>
-                <li style={{ marginBottom: "1em" }}>
+                <li style={{ marginBottom: ".5em" }}>
                   <p>
                     <b>Major: </b> Computer Science
                   </p>
@@ -58,7 +56,7 @@ class About extends Component {
           <Row>
             <Col
               md={{ size: 10, offset: 1 }}
-              style={{ marginTop: "2em", textAlign: "justify" }}
+              style={{ marginTop: "1em", textAlign: "justify" }}
             >
               <h3>Hi I'm Izzy Berzsenyi!</h3>
               <p>

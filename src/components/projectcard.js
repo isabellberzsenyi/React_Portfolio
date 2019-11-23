@@ -39,8 +39,8 @@ const ProjectCard = props => {
           >
             <b
               style={{
-                backgroundColor: "pink",
-                border: "2px solid pink",
+                backgroundColor: "lightblue",
+                border: "2px solid lightblue",
                 borderRadius: "20%",
                 padding: "2px",
                 marginRight: "5px"
