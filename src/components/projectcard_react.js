@@ -23,10 +23,12 @@ const ProjectCardReact = props => {
   const toggle = () => setModal(!modal);
 
   return (
-    <div>
-      <Card style={{ textAlign: "center" }}>
+    <div className="project-card">
+      <Card>
         <CardBody>
-          <CardTitle style={{ fontWeight: "bolder" }}>{props.title}</CardTitle>
+          <CardTitle style={{ fontWeight: "bolder" }}>
+            <h4 className="cardTitle">{props.title}</h4>
+          </CardTitle>
           <img
             width="50%"
             height="150px"
@@ -54,21 +56,9 @@ const ProjectCardReact = props => {
             </b>
             {props.attributes}
           </CardSubtitle>
-
-          <Button
-            className="learn-more"
-            color="info"
-            onClick={toggle}
-            style={{
-              margin: "auto",
-              width: "125px",
-              height: "50px",
-              fontSize: "17px",
-              padding: "0"
-            }}
-          >
-            Learn More...
-          </Button>
+          <div className="learn-more">
+            <Button onClick={toggle}>Learn More...</Button>
+          </div>
           <Modal
             isOpen={modal}
             toggle={toggle}

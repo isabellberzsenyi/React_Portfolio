@@ -61,14 +61,20 @@ const Projects = props => {
             style={{ paddingTop: "1em", paddingBottom: "1em" }}
           >
             <p>
-              dljhgfdfghjklkhgfghjklkjhgfghjkjhgfvghjdljhgfdfghjklkhgfghjklkjhgfghjkjhgfvghjdljhgfdfghjklkhgfghjklkjhgfghjkjhgfvghjdljhgfdfghjklkhgfghjklkjhgfghjkjhgfvghjdljhgfdfghjklkhgfghjklkjhgfghjkjhgfvghjdljhgfdfghjklkhgfghjklkjhgfghjkjhgfvghjdljhgfdfghjklkhgfghjklkjhgfghjkjhgfvghjdljhgfdfghjklkhgfghjklkjhgfghjkjhgfvghjdljhgfdfghjklkhgfghjklkjhgfghjkjhgfvghj
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              tempor nisl vitae erat imperdiet cursus. Phasellus eleifend nisi
+              lorem, vitae lobortis arcu ultricies sit amet. Mauris dui ante,
+              iaculis nec condimentum id, sodales sit amet orci. Cras mattis
+              mauris quis convallis aliquam. Nulla in luctus nunc. Quisque
+              commodo ultricies tellus, quis pharetra turpis eleifend at. Sed
+              sed orci dignissim, pharetra lectus ac, pulvinar nibh
             </p>
           </Col>
         </Row>
 
         <Row style={{ margin: "auto", paddingTop: "10px" }}>
           <Col
-            md={{ size: 3, offset: 1 }}
+            md={{ size: 4, offset: 1 }}
             style={{ margin: "auto", paddingTop: "10px" }}
           >
             <ProjectCard
@@ -83,7 +89,7 @@ const Projects = props => {
               codeBol={false}
             />
           </Col>
-          <Col md={{ size: 3 }} style={{ margin: "auto", paddingTop: "10px" }}>
+          <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCard
               title="Marble Solitaire"
               attributes="Solo, School"
@@ -96,7 +102,7 @@ const Projects = props => {
               codeBol={false}
             />
           </Col>
-          <Col md={{ size: 3 }} style={{ margin: "auto", paddingTop: "10px" }}>
+          <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCard
               title="Simple HTML Website"
               attributes="Solo, Personal"
@@ -113,7 +119,7 @@ const Projects = props => {
         </Row>
         <Row style={{ margin: "auto", paddingTop: "10px" }}>
           <Col
-            md={{ size: 3, offset: 1 }}
+            md={{ size: 4, offset: 1 }}
             style={{ margin: "auto", paddingTop: "10px" }}
           >
             <ProjectCard
@@ -129,7 +135,7 @@ const Projects = props => {
               demoLink="https://isabellberzsenyi.github.io"
             />
           </Col>
-          <Col md={{ size: 3 }} style={{ margin: "auto", paddingTop: "10px" }}>
+          <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCardReact
               title="Calculator"
               attributes="Solo, Personal"
@@ -142,7 +148,7 @@ const Projects = props => {
               project="calculator"
             />
           </Col>
-          <Col md={{ size: 3 }} style={{ margin: "auto", paddingTop: "10px" }}>
+          <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCardReact
               title="Tic Tac Toe"
               attributes="Solo, Personal"
@@ -157,7 +163,7 @@ const Projects = props => {
           </Col>
         </Row>
         <Row style={{ margin: "auto", paddingTop: "10px" }}>
-          <Col md={{ size: 3 }} style={{ margin: "auto", paddingTop: "10px" }}>
+          <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCardReact
               title="Weather App"
               attributes="Solo, Personal"
@@ -170,7 +176,7 @@ const Projects = props => {
               project="weatherapp"
             />
           </Col>
-          <Col md={{ size: 3 }} style={{ margin: "auto", paddingTop: "10px" }}>
+          <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCardReact
               title="To Do List"
               attributes="Solo, Personal"

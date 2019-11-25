@@ -19,7 +19,7 @@ class Work extends Component {
                 padding: "0"
               }}
             >
-              <h5>{this.props.compName}</h5>
+              <h4>{this.props.compName}</h4>
             </Col>
             <Col
               md={{ size: 6 }}
@@ -31,7 +31,6 @@ class Work extends Component {
               <b>{this.props.dates}</b>
             </Col>
           </Row>
-          <br />
 
           <Row>
             <Col
@@ -57,10 +56,19 @@ class Work extends Component {
             <Col
               md={{ size: 8, offset: 2 }}
               style={{
-                textAlign: "right",
+                textAlign: "left",
                 padding: "0"
               }}
-            ></Col>
+            >
+              <ul>
+                <li>{this.props.list1}</li>
+                <li>{this.props.list2}</li>
+                <li>
+                  <b>Key Achievement: </b>
+                  {this.props.keyachieve}
+                </li>
+              </ul>
+            </Col>
           </Row>
         </Container>
       </div>

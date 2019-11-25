@@ -57,7 +57,7 @@ class Contact extends Component {
             </Col>
           </Row>
 
-          <Row style={{ paddingTop: "2em" }}>
+          <Row className="contact-second-row">
             <Col md={{ size: 2, offset: 2 }}>
               <a
                 href="http://www.google.com"

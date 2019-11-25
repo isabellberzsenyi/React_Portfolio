@@ -1,9 +1,49 @@
+@media only screen and (max-width: 1200px) {
+  .cardTitle {
+    font-size: 20px;
+  }
+  .project-card {
+    text-align: center;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navLinkActive,
+  .navLinkNonActive {
+    font-size: 18px;
+  }
+  .learn-more {
+    margin: auto;
+    width: 75px;
+    height: 20px;
+    font-size: 10px;
+    padding: 0;
+  }
+  .cardTitle {
+    font-size: 15px;
+  }
+  .project-card {
+    text-align: center;
+    height: 400px;
+  }
+  .footer-right {
+    display: none;
+  }
+  .contact-links {
+    display: none;
+  }
+}
+h4 {
+  color: lightblue;
+}
 a {
   text-decoration: none;
 }
 a:hover {
   text-decoration: none;
 }
+/* Footer */
 .footer-icon {
   margin-left: 15px;
   color: teal;
@@ -12,10 +52,6 @@ a:hover {
   color: lightblue;
   cursor: pointer;
 }
-/* :root {
-  --space: 1.5em 0;
-  --space: 2em 0;
-} */
 
 button {
   text-align: center;
@@ -25,6 +61,8 @@ button {
   flex-direction: column;
   min-height: 100vh;
   background-color: white;
+  word-break: keep-all;
+  /* word-wrap: break-word; */
 }
 .Site-content {
   flex: 1 0 auto;
@@ -87,6 +125,7 @@ h3 {
   z-index: 1;
   overflow: hidden;
   text-align: left;
+  color: teal;
 }
 h3:after {
   position: absolute;
@@ -98,7 +137,23 @@ h3:after {
   background-color: black;
   margin-left: 0.5em;
 }
-
+.learn-more {
+  margin: auto;
+  width: 125px;
+  height: 50px;
+  font-size: 17px;
+  padding: 0;
+  color: blue;
+}
+.project-card {
+  text-align: center;
+  height: 300px;
+  margin-bottom: 1em;
+}
+/* .project-card:hover {
+  opacity: 50%;
+  cursor: pointer;
+} */
 /* To Do List */
 
 .ToDo {
