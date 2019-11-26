@@ -29,7 +29,7 @@ const Resume = props => {
       <Container style={{ paddingTop: "2.5em", textAlign: "center" }}>
         <Row style={{ marginBottom: "2em", marginTop: "2em" }}>
           <Col>
-            <h1 className="resume-collapse" onClick={toggle1}>
+            <h1 className="resume-collapse education" onClick={toggle1}>
               Education
             </h1>
             <Collapse isOpen={isOpen1}>
@@ -46,7 +46,7 @@ const Resume = props => {
 
         <Row style={{ marginBottom: "2em", marginTop: "2em" }}>
           <Col>
-            <h1 className="resume-collapse" onClick={toggle3}>
+            <h1 className="resume-collapse work" onClick={toggle3}>
               Work Experience
             </h1>
             <Collapse isOpen={isOpen3}>
@@ -62,6 +62,15 @@ const Resume = props => {
                       list2="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
                       keyachieve="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
                     />
+                    <Work
+                      dates="May 2018 - Aug 2018"
+                      compName="Luxfer Holdings, PLC"
+                      role="Investor Relations Intern"
+                      location="Milwaukee, WI"
+                      list1="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
+                      list2="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
+                      keyachieve="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
+                    />
                   </CardBody>
                 </Card>
               </Col>
@@ -71,14 +80,30 @@ const Resume = props => {
 
         <Row style={{ marginBottom: "2em", marginTop: "2em" }}>
           <Col>
-            <h1 className="resume-collapse" onClick={toggle2}>
+            <h1 className="resume-collapse skills" onClick={toggle2}>
               Skills
             </h1>
             <Collapse isOpen={isOpen2}>
               <Col md={{ size: 10, offset: 1 }}>
                 <Card>
                   <CardBody>
-                    <Skills />
+                    <Skills
+                      type="Programming Languages"
+                      list="C++, Java, JavaScript (Intermediate), HTML, CSS, Command Line, Dr. Racket"
+                    />
+                    <Skills
+                      type="Frameworks"
+                      list="React (Intermediate), Bootstrap"
+                    />
+                    <Skills
+                      type="Tools"
+                      list="Git, SVN, Microsoft Office Suite"
+                    />
+                    <Skills type="Methodologies" list="Agile" />
+                    <Skills
+                      type="Languages"
+                      list="Hungarian (Fluent), French (Intermediate)"
+                    />
                   </CardBody>
                 </Card>
               </Col>
@@ -86,29 +111,6 @@ const Resume = props => {
           </Col>
         </Row>
       </Container>
-      {/*<div style={{ paddingTop: "2em" }}>
-          <VerticalTimeline>
-            <Education />
-            <Work
-              dates="July 2019 - Dec 2019"
-              compName="Thermo Fisher Scientific"
-              role="Software Engineering Co-op"
-              location="Boston, MA"
-              list1="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
-              list2="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
-              keyachieve="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
-            />
-            <Work
-              dates="May 2018 - Aug 2018"
-              compName="Luxfer Holdings, PLC"
-              role="Investor Relations Intern"
-              location="Milwaukee, WI"
-              list1="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
-              list2="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
-              keyachieve="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
-            />
-          </VerticalTimeline>
-        </div>*/}
     </div>
   );
 };

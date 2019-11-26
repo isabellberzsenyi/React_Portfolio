@@ -35,7 +35,7 @@
   }
 }
 h4 {
-  color: lightblue;
+  color: #d9cccc;
 }
 a {
   text-decoration: none;
@@ -46,11 +46,16 @@ a:hover {
 /* Footer */
 .footer-icon {
   margin-left: 15px;
-  color: teal;
+  color: #8c2c16;
 }
 .footer-icon:hover {
-  color: lightblue;
+  color: #d9cccc;
   cursor: pointer;
+}
+.footer-right {
+  margin: auto;
+  text-align: left;
+  color: #8c2c16;
 }
 
 button {
@@ -77,36 +82,35 @@ button {
   visibility: hidden;
 }
 .navigation-header a {
-  color: teal;
+  color: #8c2c16;
 }
 
 .navigation-header a:hover {
-  color: lightblue;
+  color: #d9cccc;
 }
 .navLinkActive {
-  color: teal;
+  color: #8c2c16;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .navLinkNonActive {
-  color: lightblue;
+  color: #d9cccc;
   text-transform: uppercase;
 }
 .navLinkActive:hover,
 .navLinkNonActive:hover {
-  color: teal;
+  color: #8c2c16;
 }
 
 .dropdown {
   text-transform: uppercase;
-  color: lightblue;
+  color: #d9cccc;
 }
 
 .dropdown:hover {
-  color: teal;
+  color: #8c2c16;
 }
-
 ul {
   padding: 0;
 }
@@ -125,7 +129,7 @@ h3 {
   z-index: 1;
   overflow: hidden;
   text-align: left;
-  color: teal;
+  color: #8c2c16;
 }
 h3:after {
   position: absolute;
@@ -151,7 +155,7 @@ h3:after {
   margin-bottom: 1em;
 }
 /* .project-card:hover {
-  opacity: 50%;
+  opacity: 40%;
   cursor: pointer;
 } */
 /* To Do List */
@@ -247,7 +251,7 @@ h3:after {
 
 /* Calculator */
 .Calculator-App {
-  background-color: teal;
+  background-color: #8c2c16;
   margin: auto;
   padding-top: 2em;
   height: 600px;
@@ -371,8 +375,8 @@ h3:after {
 }
 
 .form button {
-  background-color: teal;
-  border: 2px solid teal;
+  background-color: #8c2c16;
+  border: 2px solid #8c2c16;
   color: white;
   font-size: 20px;
   cursor: pointer;
@@ -383,7 +387,7 @@ h3:after {
 
 .form button:hover {
   background-color: white;
-  color: teal;
+  color: #8c2c16;
 }
 
 .weather_info {
@@ -420,39 +424,39 @@ h3:after {
 
 /* Contact Page */
 .contact-icon {
-  color: teal;
+  color: #8c2c16;
   width: 50px;
   height: 50px;
   margin-top: 25px;
 }
 
 .contact-icon:hover {
-  color: lightblue;
+  color: #d9cccc;
 }
 
 .icon-background {
   height: 100px;
-  background-color: lightblue;
+  background-color: #d9cccc;
   border-radius: 50%;
   width: 100px;
   margin: auto;
 }
 
 .icon-background:hover {
-  background-color: teal;
+  background-color: #8c2c16;
 }
 
 .contact-links {
   text-transform: uppercase;
-  color: teal;
+  color: #8c2c16;
 }
 
 /* Resume */
 .resume-collapse {
-  color: lightblue;
+  color: #d9cccc;
 }
 
 .resume-collapse:hover {
   cursor: pointer;
-  color: teal;
+  color: #8c2c16;
 }

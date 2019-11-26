@@ -91,7 +91,7 @@ class Navigation extends Component {
                   About
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem href="/">
+                  <DropdownItem className="d" href="/">
                     <p className="dropdown">Meet Izzy</p>
                   </DropdownItem>
                   <DropdownItem divider />
@@ -104,18 +104,6 @@ class Navigation extends Component {
                   </DropdownItem>
                 </DropdownMenu>
               </Dropdown>
-              {/*  <NavItem>
-                <NavLink
-                  className={
-                    this.props.active === "about"
-                      ? "navLinkActive"
-                      : "navLinkNonActive"
-                  }
-                  href="/"
-                >
-                  About
-                </NavLink>
-              </NavItem>*/}
               <NavItem>
                 <NavLink
                   className={

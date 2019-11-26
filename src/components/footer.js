@@ -8,14 +8,7 @@ class Footer extends Component {
       <Container style={{ marginTop: "2em" }}>
         <Row>
           <Col md={{ size: 7 }}>
-            <h5
-              style={{
-                margin: "auto",
-                textAlign: "left",
-                color: "teal"
-              }}
-              className="footer-right"
-            >
+            <h5 className="footer-right">
               Made with <FaHeart /> by Izzy
             </h5>
           </Col>

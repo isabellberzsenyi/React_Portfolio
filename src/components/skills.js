@@ -5,19 +5,15 @@ class Skills extends Component {
   render() {
     return (
       <div>
-        <Container style={{ padding: "0" }}>
+        <Container style={{ padding: "0", textAlign: "left" }}>
           <Row>
-            <Col
-              md={{ size: 4, offset: 1 }}
-              style={{ textAlign: "left", border: "2px solid blue" }}
-            >
-              <b>Skills blah blah</b>
+            <Col md={{ size: 3, offset: 1 }}>
+              <h6>
+                <b>{this.props.type}:</b>
+              </h6>
             </Col>
-            <Col
-              md={{ size: 6 }}
-              style={{ textAlign: "right", border: "2px solid red" }}
-            >
-              Skills
+            <Col md={{ size: 7 }}>
+              <p>{this.props.list}</p>
             </Col>
           </Row>
         </Container>

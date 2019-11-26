@@ -15,7 +15,7 @@ class About extends Component {
                 src={require("./../img/me2.jpg")}
                 alt="izzy"
                 className="izzy-picture"
-                style={{ width: "100%", height: "250px" }}
+                style={{ width: "500px", height: "250px" }}
               />
             </Col>
             <Col

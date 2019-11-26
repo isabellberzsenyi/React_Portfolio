@@ -13,7 +13,7 @@ class Work extends Component {
         <Container style={{ padding: "0" }}>
           <Row>
             <Col
-              md={{ size: 4, offset: 1 }}
+              md={{ size: 5, offset: 1 }}
               style={{
                 textAlign: "left",
                 padding: "0"
@@ -22,7 +22,7 @@ class Work extends Component {
               <h4>{this.props.compName}</h4>
             </Col>
             <Col
-              md={{ size: 6 }}
+              md={{ size: 5 }}
               style={{
                 textAlign: "right",
                 padding: "0"
@@ -34,7 +34,7 @@ class Work extends Component {
 
           <Row>
             <Col
-              md={{ size: 4, offset: 1 }}
+              md={{ size: 5, offset: 1 }}
               style={{
                 textAlign: "left",
                 padding: "0"
@@ -43,7 +43,7 @@ class Work extends Component {
               <h5>{this.props.role}</h5>
             </Col>
             <Col
-              md={{ size: 6 }}
+              md={{ size: 5 }}
               style={{
                 textAlign: "right",
                 padding: "0"
@@ -52,15 +52,10 @@ class Work extends Component {
               <b>{this.props.location}</b>
             </Col>
           </Row>
+
           <Row>
-            <Col
-              md={{ size: 8, offset: 2 }}
-              style={{
-                textAlign: "left",
-                padding: "0"
-              }}
-            >
-              <ul>
+            <Col md={{ size: 10, offset: 1 }}>
+              <ul style={{ textAlign: "left" }}>
                 <li>{this.props.list1}</li>
                 <li>{this.props.list2}</li>
                 <li>
