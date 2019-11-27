@@ -432,6 +432,7 @@ h3:after {
 
 .contact-icon:hover {
   color: #d9cccc;
+  cursor: pointer;
 }
 
 .icon-background {
@@ -444,13 +445,16 @@ h3:after {
 
 .icon-background:hover {
   background-color: #8c2c16;
+  cursor: pointer;
 }
 
 .contact-links {
   text-transform: uppercase;
   color: #8c2c16;
 }
-
+.contact-links:hover {
+  cursor: pointer;
+}
 /* Resume */
 .resume-collapse {
   color: #d9cccc;

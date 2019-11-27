@@ -58,6 +58,7 @@ class Work extends Component {
               <ul style={{ textAlign: "left" }}>
                 <li>{this.props.list1}</li>
                 <li>{this.props.list2}</li>
+                <li>{this.props.list3}</li>
                 <li>
                   <b>Key Achievement: </b>
                   {this.props.keyachieve}

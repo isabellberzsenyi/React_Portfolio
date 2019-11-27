@@ -11,12 +11,14 @@ class About extends Component {
         <Container style={{ paddingTop: "3em" }}>
           <Row style={{ listStyle: "none", paddingTop: "0" }}>
             <Col md={{ size: 6, offset: 1, paddingTop: "0" }}>
-              <img
-                src={require("./../img/me2.jpg")}
-                alt="izzy"
-                className="izzy-picture"
-                style={{ width: "500px", height: "250px" }}
-              />
+              <div>
+                <img
+                  src={require("./../img/me2.jpg")}
+                  alt="izzy"
+                  className="izzy-picture"
+                  style={{ width: "100%", height: "250px" }}
+                />
+              </div>
             </Col>
             <Col
               md={{ size: 4 }}

@@ -3,8 +3,12 @@ import { Container, Row, Col } from "reactstrap";
 import Header from "./header";
 import Navigation from "./navigation";
 import { FaEnvelope, FaLinkedinIn, FaGithub, FaFile } from "react-icons/fa";
+import Resume from "./RESUME.pdf";
 
 class Contact extends Component {
+  onResumeClick() {
+    window.open(Resume);
+  }
   render() {
     return (
       <div>
@@ -28,28 +32,31 @@ class Contact extends Component {
           </Row>
           <Row style={{ paddingTop: "3em" }}>
             <Col md={{ size: 2, offset: 2 }}>
-              <a href="http://www.google.com">
+              <a href="mailto:berzsenyi.i@husky.neu.edu">
                 <div className="icon-background">
                   <FaEnvelope className="contact-icon" />
                 </div>
               </a>
             </Col>
             <Col md={{ size: 2 }}>
-              <a href="http://www.google.com">
+              <a
+                href="https://www.linkedin.com/in/isabell-berzsenyi"
+                target="_blank"
+              >
                 <div className="icon-background">
                   <FaLinkedinIn className="contact-icon" />
                 </div>
               </a>
             </Col>
             <Col md={{ size: 2 }}>
-              <a href="http://www.google.com">
+              <a href="https://github.com/isabellberzsenyi" target="_blank">
                 <div className="icon-background">
                   <FaGithub className="contact-icon" />
                 </div>
               </a>
             </Col>
             <Col md={{ size: 2 }}>
-              <a href="http://www.google.com">
+              <a onClick={this.onResumeClick} target="_blank">
                 <div className="icon-background">
                   <FaFile className="contact-icon" />
                 </div>
@@ -60,7 +67,7 @@ class Contact extends Component {
           <Row className="contact-second-row">
             <Col md={{ size: 2, offset: 2 }}>
               <a
-                href="http://www.google.com"
+                href="mailto:berzsenyi.i@husky.neu.edu"
                 style={{ textDecoration: "none" }}
               >
                 <h4 className="contact-links">Email</h4>
@@ -68,7 +75,8 @@ class Contact extends Component {
             </Col>
             <Col md={{ size: 2 }}>
               <a
-                href="http://www.google.com"
+                href="https://www.linkedin.com/in/isabell-berzsenyi"
+                target="_blank"
                 style={{ textDecoration: "none" }}
               >
                 <h4 className="contact-links">LinkedIn</h4>
@@ -76,17 +84,15 @@ class Contact extends Component {
             </Col>
             <Col md={{ size: 2 }}>
               <a
-                href="http://www.google.com"
+                href="https://github.com/isabellberzsenyi"
+                target="_blank"
                 style={{ textDecoration: "none" }}
               >
                 <h4 className="contact-links">GitHub</h4>
               </a>
             </Col>
             <Col md={{ size: 2 }}>
-              <a
-                href="http://www.google.com"
-                style={{ textDecoration: "none" }}
-              >
+              <a onClick={this.onResumeClick}>
                 <h4 className="contact-links">Resume</h4>
               </a>
             </Col>

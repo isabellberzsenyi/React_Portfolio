@@ -1,6 +1,19 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Table } from "reactstrap";
 import Navigation from "./navigation";
+import { CsvToHtmlTable } from "react-csv-to-table";
+
+const sampleData = `
+Category,Task,Status,Completed,Notes
+Mind/Body, Meditate for 7 days straight, , ,
+Mind/Body, Meditate for 30 days straight, , ,
+Mind/Body, Run 2nd Half Marathon, , ,
+Learning, Read 1 book/week for a month, , ,
+Travel, Climb Machu Picchu, , ,
+Travel, Hike the Santa Domingo trail, , ,
+Travel, Solo trip around Europe, , ,
+Travel, Trip to Asia, , ,
+`;
 
 class ImpossibleList extends Component {
   render() {
@@ -29,40 +42,12 @@ class ImpossibleList extends Component {
           </Row>
           <Row style={{ marginTop: "2em" }}>
             <Col md={{ size: 10, offset: 1 }}>
-              <Table hover>
-                <thead>
-                  <tr>
-                    <th>Category</th>
-                    <th>Impossible List</th>
-                    <th>Status</th>
-                    <th>Date Completed</th>
-                    <th>Notes</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                    <td>@mdo</td>
-                  </tr>
-                </tbody>
-              </Table>
+              <CsvToHtmlTable
+                data={sampleData}
+                csvDelimiter=","
+                tableClassName="table table-striped table-hover"
+              />
+              ;
             </Col>
           </Row>
         </Container>

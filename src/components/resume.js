@@ -58,18 +58,20 @@ const Resume = props => {
                       compName="Thermo Fisher Scientific"
                       role="Software Engineering Co-op"
                       location="Boston, MA"
-                      list1="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
-                      list2="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
-                      keyachieve="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
+                      list1="Curate solutions to bugs and customer issues on released gas chemical analysis instruments, issues tracked in Jira and solutions written in C++ and C"
+                      list2="Perform regression testing before releasing new quarterly software"
+                      list3="Participate and contribute in daily sprint meetings, bi-weekly planning and retrospective meetings"
+                      keyachieve=" Analyze code to understand where bugs are and problem solve to cultivate a solution that does not disrupt the rest of the programs"
                     />
                     <Work
                       dates="May 2018 - Aug 2018"
                       compName="Luxfer Holdings, PLC"
                       role="Investor Relations Intern"
                       location="Milwaukee, WI"
-                      list1="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
-                      list2="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
-                      keyachieve="Be superior tuxedo cats always looking dapper but cat gets stuck in tree firefighters try to get cat"
+                      list1="Proposed and implemented new architecture, organization and design for corporate website"
+                      list2="Revised and developed written content to make information more readable and current"
+                      list3="Led communication with international vendors and business unit managers to collaborate on ideas and execute design"
+                      keyachieve=" Designed the company website to have a new look and up-to-date content, see luxfer.com"
                     />
                   </CardBody>
                 </Card>
