@@ -22,7 +22,7 @@ const ProjectCard = props => {
     <div className="project-card">
       <Card>
         <CardBody>
-          <CardTitle style={{ fontWeight: "bolder" }}>
+          <CardTitle>
             <h4 className="cardTitle">{props.title}</h4>
           </CardTitle>
           <img
@@ -41,8 +41,8 @@ const ProjectCard = props => {
           >
             <b
               style={{
-                backgroundColor: "lightblue",
-                border: "2px solid lightblue",
+                backgroundColor: "#d9cccc",
+                border: "2px solid #d9cccc",
                 borderRadius: "20%",
                 padding: "2px",
                 marginRight: "5px"
@@ -52,9 +52,15 @@ const ProjectCard = props => {
             </b>
             {props.attributes}
           </CardSubtitle>
-          <div className="learn-more">
-            <Button onClick={toggle}>Learn More...</Button>
-          </div>
+          <h5
+            style={{
+              margin: "auto",
+              fontSize: "20px"
+            }}
+            onClick={toggle}
+          >
+            Learn More...
+          </h5>
           <Modal
             isOpen={modal}
             toggle={toggle}

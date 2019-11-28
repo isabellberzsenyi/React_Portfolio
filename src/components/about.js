@@ -6,11 +6,32 @@ import Navigation from "./navigation";
 class About extends Component {
   render() {
     return (
-      <div>
+      <div
+        style={{
+          paddingBottom: "0",
+          marginBottom: "-1em"
+        }}
+      >
         <Navigation active="about" />
-        <Container style={{ paddingTop: "3em" }}>
-          <Row style={{ listStyle: "none", paddingTop: "0" }}>
-            <Col md={{ size: 6, offset: 1, paddingTop: "0" }}>
+        <Container style={{ paddingTop: "2em" }}>
+          <Row style={{ padding: "0", margin: "0", textAlign: "center" }}>
+            <Col style={{ padding: "0", margin: "0" }}>
+              <h1
+                style={{
+                  textTransform: "uppercase",
+                  padding: "0",
+                  margin: "0",
+                  fontWeight: "bold",
+                  fontSize: "50px"
+                }}
+              >
+                Meet izzy!
+              </h1>
+            </Col>
+          </Row>
+
+          <Row style={{ paddingTop: "0" }}>
+            <Col md={{ size: 6 }} style={{ margin: "auto" }}>
               <div>
                 <img
                   src={require("./../img/me2.jpg")}
@@ -20,45 +41,16 @@ class About extends Component {
                 />
               </div>
             </Col>
-            <Col
-              md={{ size: 4 }}
-              style={{ textAlign: "center", paddingTop: "0" }}
-            >
-              <h2 style={{ textTransform: "uppercase" }}>Meet izzy!</h2>
-              <ul style={{ textAlign: "left", paddingLeft: "2em" }}>
-                <li style={{ marginBottom: ".5em" }}>
-                  <p>
-                    <b>Major: </b> Computer Science
-                  </p>
-                </li>
-                <li style={{ marginBottom: "1em" }}>
-                  <p>
-                    <b>Currently in:</b> Boston, MA
-                  </p>
-                </li>
-                <li style={{ marginBottom: "1em" }}>
-                  <p>
-                    <b>Hometown: </b>Milwaukee, WI
-                  </p>
-                </li>
-                <li style={{ marginBottom: "1em" }}>
-                  <p>
-                    <b>Hobbies: </b>Yoga, Traveling, Reading, Lattes
-                  </p>
-                </li>
-                <li style={{ marginBottom: "1em" }}>
-                  <p>
-                    <b>Song on repeat: </b>Lovers Rock by TV Girl
-                  </p>
-                </li>
-              </ul>
-            </Col>
           </Row>
 
           <Row>
             <Col
               md={{ size: 10, offset: 1 }}
-              style={{ marginTop: "1em", textAlign: "justify" }}
+              style={{
+                marginTop: "1em",
+                textAlign: "justify",
+                marginBottom: "-.5em"
+              }}
             >
               <h3>Hi I'm Izzy Berzsenyi!</h3>
               <p>

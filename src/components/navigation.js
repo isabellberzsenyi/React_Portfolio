@@ -91,15 +91,30 @@ class Navigation extends Component {
                   About
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem className="d" href="/">
+                  <DropdownItem
+                    style={{
+                      backgroundColor: "white"
+                    }}
+                    href="/"
+                  >
                     <p className="dropdown">Meet Izzy</p>
                   </DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem href="/now">
+                  <DropdownItem
+                    style={{
+                      backgroundColor: "white"
+                    }}
+                    href="/now"
+                  >
                     <p className="dropdown">What I'm up to now</p>
                   </DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem href="impossiblelist">
+                  <DropdownItem
+                    style={{
+                      backgroundColor: "white"
+                    }}
+                    href="impossiblelist"
+                  >
                     <p className="dropdown">Impossible List</p>
                   </DropdownItem>
                 </DropdownMenu>

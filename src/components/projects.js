@@ -38,7 +38,7 @@ const Projects = props => {
   return (
     <div>
       <Navigation active="projects" />
-      <Container style={{ paddingTop: "2.50em" }}>
+      <Container style={{ paddingTop: "2em" }}>
         <Row style={{ padding: "0", margin: "0", textAlign: "center" }}>
           <Col style={{ padding: "0", margin: "0" }}>
             <h1
@@ -79,7 +79,7 @@ const Projects = props => {
           >
             <ProjectCard
               title="Easy Animator"
-              attributes="Group, School"
+              attributes="Group, School, Java"
               image={easy_animate1}
               alt="oops"
               classname="Easy-Animator"
@@ -92,7 +92,7 @@ const Projects = props => {
           <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCard
               title="Marble Solitaire"
-              attributes="Solo, School"
+              attributes="Solo, School, Java"
               image={marble_solitaire1}
               alt="oops"
               classname="Marble-Solitaire"
@@ -105,7 +105,7 @@ const Projects = props => {
           <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCard
               title="Simple HTML Website"
-              attributes="Solo, Personal"
+              attributes="Solo, Personal, HTML/CSS"
               image={simple_res}
               alt="oops"
               classname="Simple-Resume"
@@ -124,7 +124,7 @@ const Projects = props => {
           >
             <ProjectCard
               title="HTML Website- Part 2"
-              attributes="Solo, Personal"
+              attributes="Solo, Personal, HTML/CSS"
               image={html_web1}
               alt="oops"
               classname="Simple-Resume"
@@ -138,7 +138,7 @@ const Projects = props => {
           <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCardReact
               title="Calculator"
-              attributes="Solo, Personal"
+              attributes="Solo, Personal, React"
               image={calculator}
               alt="oops"
               classname="Calculator"
@@ -151,7 +151,7 @@ const Projects = props => {
           <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCardReact
               title="Tic Tac Toe"
-              attributes="Solo, Personal"
+              attributes="Solo, Personal, React"
               image={tictactoe}
               alt="oops"
               classname="Tic-Tac-Toe"
@@ -166,7 +166,7 @@ const Projects = props => {
           <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCardReact
               title="Weather App"
-              attributes="Solo, Personal"
+              attributes="Solo, Personal, React"
               image={weather}
               alt="oops"
               classname="Weather-App"
@@ -179,7 +179,7 @@ const Projects = props => {
           <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCardReact
               title="To Do List"
-              attributes="Solo, Personal"
+              attributes="Solo, Personal, React"
               image={todolist}
               alt="oops"
               classname="To-Do-List"

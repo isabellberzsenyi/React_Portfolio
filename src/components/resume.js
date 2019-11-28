@@ -26,8 +26,37 @@ const Resume = props => {
   return (
     <div>
       <Navigation active="resume" />
-      <Container style={{ paddingTop: "2.5em", textAlign: "center" }}>
-        <Row style={{ marginBottom: "2em", marginTop: "2em" }}>
+      <Container style={{ paddingTop: "2em", textAlign: "center" }}>
+        <Row style={{ padding: "0", margin: "0", textAlign: "center" }}>
+          <Col style={{ padding: "0", margin: "0" }}>
+            <h1
+              style={{
+                textTransform: "uppercase",
+                padding: "0",
+                margin: "0",
+                fontWeight: "bold",
+                fontSize: "50px"
+              }}
+            >
+              Resume
+            </h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col
+            md={{ size: 10, offset: 1 }}
+            style={{ paddingTop: "1em", paddingBottom: "1em" }}
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              tempor nisl vitae erat imperdiet cursus. Phasellus eleifend nisi
+              lorem, vitae lobortis arcu ultricies sit amet. Mauris dui ante,
+              Phasellus eleifend nisi lorem, vitae lobortis arcu ultricies sit
+              amet. Mauris dui ante,
+            </p>
+          </Col>
+        </Row>
+        <Row style={{ marginBottom: "2em" }}>
           <Col>
             <h1 className="resume-collapse education" onClick={toggle1}>
               Education
