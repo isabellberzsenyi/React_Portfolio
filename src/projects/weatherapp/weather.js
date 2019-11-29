@@ -15,7 +15,8 @@ class Weather extends Component {
         {this.props.temperature && (
           <p className="weather_key">
             Temperature:{" "}
-            <span className="weather_value">{this.props.temperature}</span>
+            <span className="weather_value">{this.props.temperature}</span> deg
+            F
           </p>
         )}
         {this.props.humidity && (

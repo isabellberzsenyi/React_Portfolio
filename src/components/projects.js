@@ -113,7 +113,7 @@ const Projects = props => {
               modalImg={simple_res}
               codeBol={true}
               codeLink="https://github.com/isabellberzsenyi/Simple-Resume-HTML"
-              demoLink="./../demos/old-html-website/index.html"
+              demoLink="https://isabellberzsenyi.github.io/demos/old-html-website/index.html"
             />
           </Col>
         </Row>
@@ -131,7 +131,7 @@ const Projects = props => {
               modalDescription="BLAH FILL IN THE BLANK"
               modalImg={html_web2}
               codeBol={true}
-              codeLink="https://github.com/isabellberzsenyi/Simple-Resume-HTML"
+              codeLink="https://github.com/isabellberzsenyi/Intermediate-Resume-HTML"
               demoLink="https://isabellberzsenyi.github.io"
             />
           </Col>
