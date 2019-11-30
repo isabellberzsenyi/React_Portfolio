@@ -64,10 +64,7 @@ const Projects = props => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
               tempor nisl vitae erat imperdiet cursus. Phasellus eleifend nisi
               lorem, vitae lobortis arcu ultricies sit amet. Mauris dui ante,
-              iaculis nec condimentum id, sodales sit amet orci. Cras mattis
-              mauris quis convallis aliquam. Nulla in luctus nunc. Quisque
-              commodo ultricies tellus, quis pharetra turpis eleifend at. Sed
-              sed orci dignissim, pharetra lectus ac, pulvinar nibh
+              iaculis nec condimentum id, sodales sit amet orci.
             </p>
           </Col>
         </Row>
