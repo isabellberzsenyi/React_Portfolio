@@ -106,30 +106,28 @@ const ProjectCardReact = props => {
                 <div style={{ width: "100%", textAlign: "center" }}>
                   <p>
                     <a
-                      style={{ color: "black" }}
+                      style={{ color: "#8c2c16" }}
                       href={props.codeLink}
                       target="_blank"
                     >
                       View Code
                     </a>
-                    <br />
-                    <a
-                      style={{ color: "black" }}
-                      href={props.demoLink}
-                      target="_blank"
-                    >
-                      View Demo
-                    </a>
                   </p>
                 </div>
               ) : (
-                <div style={{ width: "100%", textAlign: "center" }}>
-                  <p>
-                    <a href="mailto:iberzsenyi@yahoo.com">
-                      To prevent plagiarism, the code to this project is hidden.
-                      To get more information please contact me.
-                    </a>
-                  </p>
+                <div
+                  style={{
+                    width: "100%",
+                    textAlign: "center"
+                  }}
+                >
+                  <a
+                    style={{ color: "#8c2c16" }}
+                    href="mailto:iberzsenyi@yahoo.com"
+                  >
+                    To prevent plagiarism, the code to this project is hidden.
+                    To get more information please contact me.
+                  </a>
                 </div>
               )}
             </ModalFooter>

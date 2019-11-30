@@ -59,11 +59,16 @@ h5:hover {
   color: #d9cccc;
   cursor: pointer;
 }
-a {
-  text-decoration: none;
+h6 a {
+  color: #d9cccc;
 }
-a:hover {
+h6 a:hover {
+  font-weight: bolder;
   text-decoration: none;
+  color: #8c2c16;
+}
+b {
+  color: #8c2c16;
 }
 .cardTitle {
   color: #8c2c16;

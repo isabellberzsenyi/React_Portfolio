@@ -106,7 +106,7 @@ const ProjectCard = props => {
                 <div style={{ width: "100%", textAlign: "center" }}>
                   <p>
                     <a
-                      style={{ color: "black" }}
+                      style={{ color: "#8c2c16" }}
                       href={props.codeLink}
                       target="_blank"
                     >
@@ -114,7 +114,7 @@ const ProjectCard = props => {
                     </a>
                     <br />
                     <a
-                      style={{ color: "black" }}
+                      style={{ color: "#8c2c16" }}
                       href={props.demoLink}
                       target="_blank"
                     >
@@ -125,7 +125,10 @@ const ProjectCard = props => {
               ) : (
                 <div style={{ width: "100%", textAlign: "center" }}>
                   <p>
-                    <a href="mailto:iberzsenyi@yahoo.com">
+                    <a
+                      style={{ color: "#8c2c16" }}
+                      href="mailto:iberzsenyi@yahoo.com"
+                    >
                       To prevent plagiarism, the code to this project is hidden.
                       To get more information please contact me.
                     </a>
