@@ -41,13 +41,7 @@ const Resume = props => {
             md={{ size: 10, offset: 1 }}
             style={{ paddingTop: "1em", paddingBottom: "1em" }}
           >
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              tempor nisl vitae erat imperdiet cursus. Phasellus eleifend nisi
-              lorem, vitae lobortis arcu ultricies sit amet. Mauris dui ante,
-              Phasellus eleifend nisi lorem, vitae lobortis arcu ultricies sit
-              amet. Mauris dui ante,
-            </p>
+            <p>asdfafa</p>
           </Col>
         </Row>
         <Row style={{ marginBottom: "2em" }}>

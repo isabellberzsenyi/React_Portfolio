@@ -13,7 +13,6 @@ import {
   DropdownToggle,
   DropdownMenu
 } from "reactstrap";
-import LandingPage from "./landingpage";
 import About from "./about";
 import Contact from "./contact";
 import Projects from "./projects";

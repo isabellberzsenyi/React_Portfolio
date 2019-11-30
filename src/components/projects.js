@@ -6,8 +6,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  TabContent,
-  TabPane,
   Card,
   CardTitle,
   CardText
@@ -31,10 +29,6 @@ import weather from "./../img/weather.JPG";
 import ProjectCardReact from "./projectcard_react";
 
 const Projects = props => {
-  const [activeTab, setActiveTab] = useState("1");
-  const toggle = tab => {
-    if (activeTab !== tab) setActiveTab(tab);
-  };
   return (
     <div>
       <Navigation active="projects" />
@@ -54,21 +48,6 @@ const Projects = props => {
             </h1>
           </Col>
         </Row>
-
-        <Row>
-          <Col
-            md={{ size: 10, offset: 1 }}
-            style={{ paddingTop: "1em", paddingBottom: "1em" }}
-          >
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              tempor nisl vitae erat imperdiet cursus. Phasellus eleifend nisi
-              lorem, vitae lobortis arcu ultricies sit amet. Mauris dui ante,
-              iaculis nec condimentum id, sodales sit amet orci.
-            </p>
-          </Col>
-        </Row>
-
         <Row style={{ margin: "auto", paddingTop: "10px" }}>
           <Col
             md={{ size: 4, offset: 1 }}
