@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "engine": {
+  "engines": {
     "npm": "6.12.0",
     "node": "10.16.3"
   },
