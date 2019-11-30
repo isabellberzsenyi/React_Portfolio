@@ -8,12 +8,6 @@ import Work from "./work";
 import Skills from "./skills";
 import School from "./school";
 
-import {
-  VerticalTimeline,
-  VerticalTimelineElement
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-
 const Resume = props => {
   const [isOpen1, setIsOpen1] = useState(false);
   const toggle1 = () => setIsOpen1(!isOpen1);

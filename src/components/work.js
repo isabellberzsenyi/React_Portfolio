@@ -1,10 +1,5 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
 
 class Work extends Component {
   render() {
