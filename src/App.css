@@ -361,7 +361,7 @@ button {
   text-align: center;
 }
 
-.forminput: -webkit-autofill {
+.forminput:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px lightblue inset;
   -webkit-text-fill-color: black !important;
 }
