@@ -5,7 +5,7 @@ import Navigation from "./navigation";
 import Work from "./work";
 import Skills from "./skills";
 import School from "./school";
-import Res from "./RESUME.pdf";
+import Res from "./../RESUME.pdf";
 
 const Resume = props => {
   const onResumeClick = () => {

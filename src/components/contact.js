@@ -2,12 +2,13 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import Navigation from "./navigation";
 import { FaEnvelope, FaLinkedinIn, FaGithub, FaFile } from "react-icons/fa";
-import Resume from "./RESUME.pdf";
+import Resume from "./../RESUME.pdf";
 
 class Contact extends Component {
   onResumeClick() {
     window.open(Resume);
   }
+
   render() {
     return (
       <div>
