@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Collapse, CardBody, Card } from "reactstrap";
-import Header from "./header";
 import Education from "./education";
 import Navigation from "./navigation";
-import "../App.css";
 import Work from "./work";
 import Skills from "./skills";
 import School from "./school";
+import Res from "./RESUME.pdf";
 
 const Resume = props => {
+  const onResumeClick = () => {
+    window.open(Res);
+  };
+
+  // Constants to open/close category drawers
   const [isOpen1, setIsOpen1] = useState(false);
   const toggle1 = () => setIsOpen1(!isOpen1);
 
@@ -17,36 +21,28 @@ const Resume = props => {
 
   const [isOpen3, setIsOpen3] = useState(false);
   const toggle3 = () => setIsOpen3(!isOpen3);
+
   return (
     <div>
       <Navigation active="resume" />
       <Container style={{ paddingTop: "2em", textAlign: "center" }}>
-        <Row style={{ padding: "0", margin: "0", textAlign: "center" }}>
-          <Col style={{ padding: "0", margin: "0" }}>
-            <h1
-              style={{
-                textTransform: "uppercase",
-                padding: "0",
-                margin: "0",
-                fontWeight: "bold",
-                fontSize: "50px"
-              }}
-            >
-              Resume
-            </h1>
-          </Col>
-        </Row>
         <Row>
-          <Col
-            md={{ size: 10, offset: 1 }}
-            style={{ paddingTop: "1em", paddingBottom: "1em" }}
-          >
-            <p>asdfafa</p>
+          <Col md={{ size: 8, offset: 2 }}>
+            <h1>Resume</h1>
+            <h6 style={{ fontWeight: "normal" }}>
+              <b>
+                I am now applying for a fall (July 2020 - Jan 2020) Software
+                Engineering/Developping co-op.
+              </b>
+              <br />
+              You can learn more about my experience below or download my resume
+              <a onClick={onResumeClick}> here</a>!
+            </h6>
           </Col>
         </Row>
-        <Row style={{ marginBottom: "2em" }}>
+        <Row className="res-drawers">
           <Col>
-            <h1 className="resume-collapse education" onClick={toggle1}>
+            <h1 className="resume-collapse" onClick={toggle1}>
               Education
             </h1>
             <Collapse isOpen={isOpen1}>
@@ -61,12 +57,12 @@ const Resume = props => {
           </Col>
         </Row>
 
-        <Row style={{ marginBottom: "2em", marginTop: "2em" }}>
+        <Row className="res-drawers">
           <Col>
-            <h1 className="resume-collapse work" onClick={toggle3}>
+            <h1 className="resume-collapse" onClick={toggle2}>
               Work Experience
             </h1>
-            <Collapse isOpen={isOpen3}>
+            <Collapse isOpen={isOpen2}>
               <Col md={{ size: 10, offset: 1 }}>
                 <Card>
                   <CardBody>
@@ -97,12 +93,12 @@ const Resume = props => {
           </Col>
         </Row>
 
-        <Row style={{ marginBottom: "2em", marginTop: "2em" }}>
+        <Row className="res-drawers">
           <Col>
-            <h1 className="resume-collapse skills" onClick={toggle2}>
+            <h1 className="resume-collapse" onClick={toggle3}>
               Skills
             </h1>
-            <Collapse isOpen={isOpen2}>
+            <Collapse isOpen={isOpen3}>
               <Col md={{ size: 10, offset: 1 }}>
                 <Card>
                   <CardBody>

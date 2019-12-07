@@ -5,7 +5,7 @@ class School extends Component {
   render() {
     return (
       <div>
-        <Container style={{ padding: "0" }}>
+        <Container>
           <Row>
             <Col
               md={{ size: 4, offset: 1 }}
@@ -46,7 +46,6 @@ class School extends Component {
               <i>GPA: 3.7</i>
             </Col>
           </Row>
-          <br />
           <Row>
             <Col
               md={{ size: 10, offset: 1 }}
@@ -62,7 +61,6 @@ class School extends Component {
               </p>
             </Col>
           </Row>
-          <br />
           <Row>
             <Col
               md={{ size: 10, offset: 1 }}
@@ -80,7 +78,6 @@ class School extends Component {
               </p>
             </Col>
           </Row>
-          <br />
           <Row>
             <Col
               md={{ size: 10, offset: 1 }}

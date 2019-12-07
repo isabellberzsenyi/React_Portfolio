@@ -41,8 +41,8 @@ const ProjectCard = props => {
           >
             <b
               style={{
-                backgroundColor: "#d9cccc",
-                border: "2px solid #d9cccc",
+                backgroundColor: "#c09f9e",
+                border: "2px solid #c09f9e",
                 borderRadius: "20%",
                 padding: "2px",
                 marginRight: "5px"

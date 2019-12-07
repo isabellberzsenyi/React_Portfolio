@@ -1,32 +1,16 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import Header from "./header";
 import Navigation from "./navigation";
 
 class About extends Component {
   render() {
     return (
-      <div
-        style={{
-          paddingBottom: "0",
-          marginBottom: "-1em"
-        }}
-      >
+      <div style={{ marginBottom: "-1em" }}>
         <Navigation active="about" />
-        <Container style={{ paddingTop: "2em" }}>
-          <Row style={{ padding: "0", margin: "0", textAlign: "center" }}>
-            <Col style={{ padding: "0", margin: "0" }}>
-              <h1
-                style={{
-                  textTransform: "uppercase",
-                  padding: "0",
-                  margin: "0",
-                  fontWeight: "bold",
-                  fontSize: "50px"
-                }}
-              >
-                Meet izzy!
-              </h1>
+        <Container style={{ paddingTop: "2em", textAlign: "center" }}>
+          <Row>
+            <Col md={{ size: 8, offset: 2 }}>
+              <h1>About</h1>
             </Col>
           </Row>
 
@@ -36,13 +20,11 @@ class About extends Component {
                 <img
                   src={require("./../img/me2.jpg")}
                   alt="izzy"
-                  className="izzy-picture"
                   style={{ width: "100%", height: "250px" }}
                 />
               </div>
             </Col>
           </Row>
-
           <Row>
             <Col
               md={{ size: 10, offset: 1 }}

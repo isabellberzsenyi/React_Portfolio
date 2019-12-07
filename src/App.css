@@ -16,7 +16,7 @@
 
   .learn-more:hover {
     cursor: pointer;
-    color: #d9cccc;
+    color: #c09f9e;
   }
   .project-card {
     text-align: center;
@@ -28,6 +28,17 @@
   .contact-links {
     display: none;
   }
+}
+a:hover {
+  cursor: pointer;
+}
+
+h1 {
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 h3 {
@@ -50,18 +61,25 @@ h3:after {
 }
 
 h4 {
-  color: #d9cccc;
+  color: #c09f9e;
 }
 h5 {
   color: #8c2c16;
 }
 h5:hover {
-  color: #d9cccc;
+  color: #c09f9e;
   cursor: pointer;
 }
-h6 a {
-  color: #d9cccc;
+h6 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: justify;
 }
+
+h6 a {
+  color: #c09f9e;
+}
+
 h6 a:hover {
   font-weight: bolder;
   text-decoration: none;
@@ -72,6 +90,11 @@ b {
 }
 .cardTitle {
   color: #8c2c16;
+}
+
+ul {
+  text-align: left;
+  margin-left: 2em;
 }
 
 button {
@@ -103,7 +126,7 @@ button {
   color: #8c2c16;
 }
 .footer-icon:hover {
-  color: #d9cccc;
+  color: #c09f9e;
   cursor: pointer;
 }
 .footer-right {
@@ -117,7 +140,7 @@ button {
 }
 
 .navigation-header a:hover {
-  color: #d9cccc;
+  color: #c09f9e;
 }
 .navLinkActive {
   color: #8c2c16;
@@ -126,7 +149,7 @@ button {
 }
 
 .navLinkNonActive {
-  color: #d9cccc;
+  color: #c09f9e;
   text-transform: uppercase;
 }
 .navLinkActive:hover,
@@ -142,7 +165,7 @@ button {
 
 .dropdown {
   text-transform: uppercase;
-  color: #d9cccc;
+  color: #c09f9e;
 }
 
 .dropdown:hover {
@@ -427,13 +450,13 @@ button {
 }
 
 .contact-icon:hover {
-  color: #d9cccc;
+  color: #c09f9e;
   cursor: pointer;
 }
 
 .icon-background {
   height: 100px;
-  background-color: #d9cccc;
+  background-color: #c09f9e;
   border-radius: 50%;
   width: 100px;
   margin: auto;
@@ -444,6 +467,10 @@ button {
   cursor: pointer;
 }
 
+.contact-second-row {
+  margin-top: 1em;
+}
+
 .contact-links {
   text-transform: uppercase;
   color: #8c2c16;
@@ -451,13 +478,13 @@ button {
 .contact-links:hover {
   cursor: pointer;
 }
-
-.contact-second-row {
-  margin-top: 1em;
-}
 /* Resume */
+.res-drawers {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 .resume-collapse {
-  color: #d9cccc;
+  color: #c09f9e;
 }
 
 .resume-collapse:hover {

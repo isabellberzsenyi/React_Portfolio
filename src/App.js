@@ -10,6 +10,7 @@ import Resume from "./components/resume";
 import Footer from "./components/footer";
 import Now from "./components/now";
 import ImpossibleList from "./components/impossiblelist";
+import "./App.css";
 
 class App extends Component {
   render() {

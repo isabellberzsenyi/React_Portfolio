@@ -8,27 +8,17 @@ class Now extends Component {
     return (
       <div>
         <Navigation active="about" />
-        <Container style={{ paddingTop: "2em", textAlign: "center" }}>
+        <Container style={{ paddingTop: "2.5em", textAlign: "center" }}>
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
-              <h1
-                style={{
-                  textTransform: "uppercase",
-                  padding: "0",
-                  margin: "0",
-                  fontWeight: "bold",
-                  fontSize: "50px"
-                }}
-              >
-                What I'm Doing NOW
-              </h1>
+              <h1>What I'm Doing NOW</h1>
               <h4 style={{ paddingTop: "1em" }}>
                 Life changes a lot but here's what's going on now.
               </h4>
               <h6>
                 This section contains what I'm up to at the moment and my recent
-                accomplishments. It balances out my goal-focused mindset seen{" "}
-                <a href="/impossiblelist">here</a>. This page is inspired by{" "}
+                accomplishments. It balances out my goal-focused mindset seen
+                <a href="/impossiblelist">here</a>. This page is inspired by
                 <a href="https://sivers.org/now">Derek Sivers</a>.
               </h6>
             </Col>
@@ -38,7 +28,7 @@ class Now extends Component {
               <h3>
                 What I'm Doing <b>Now</b>
               </h3>
-              <ul style={{ textAlign: "left", marginLeft: "2em" }}>
+              <ul>
                 <li>
                   Currently I'm living in <b>Boston, MA</b> and finishing up my
                   six-month co-op working at Thermo Fisher Scientific as a
@@ -64,7 +54,7 @@ class Now extends Component {
               <h3>
                 My top priorities <b>Now</b>
               </h3>
-              <ul style={{ textAlign: "left", marginLeft: "2em" }}>
+              <ul>
                 <li>
                   Spending quality time with my friends, boyfriend and family,
                   and being the best friend/girlfriend/daughter/sister I can be
@@ -84,12 +74,7 @@ class Now extends Component {
               <h3>
                 What I'm Reading/Listening to <b>Now</b>
               </h3>
-              <ul
-                style={{
-                  textAlign: "left",
-                  marginLeft: "2em"
-                }}
-              >
+              <ul>
                 <li>
                   Recently finished reading <b>The Defining Decade</b> by Meg
                   Jay and now reading <b>The Subtle Art of Not Giving a F*ck</b>{" "}

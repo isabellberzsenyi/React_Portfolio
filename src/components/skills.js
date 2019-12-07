@@ -13,7 +13,14 @@ class Skills extends Component {
               </h6>
             </Col>
             <Col md={{ size: 7 }}>
-              <p>{this.props.list}</p>
+              <p
+                style={{
+                  paddingTop: "1em",
+                  paddingBottom: "1em"
+                }}
+              >
+                {this.props.list}
+              </p>
             </Col>
           </Row>
         </Container>

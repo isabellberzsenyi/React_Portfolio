@@ -35,17 +35,7 @@ class ImpossibleList extends Component {
         <Container style={{ paddingTop: "2.5em", textAlign: "center" }}>
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
-              <h1
-                style={{
-                  textTransform: "uppercase",
-                  padding: "0",
-                  margin: "0",
-                  fontWeight: "bold",
-                  fontSize: "50px"
-                }}
-              >
-                My Impossible List
-              </h1>
+              <h1>My Impossible List</h1>
               <h4 style={{ paddingTop: "1em" }}>
                 It's only impossible until I get it done, this is all a work in
                 progress.
@@ -53,7 +43,7 @@ class ImpossibleList extends Component {
               <h6>
                 A normal bucket list is boring, consisting of things that seem
                 possible. But an impossible list is the opposite, all the things
-                I have dreamed to do and will do. This page is inspired by{" "}
+                I have dreamed to do and will do. This page is inspired by
                 <a href="https://impossiblehq.com/impossible-list/">
                   Joel Runyon
                 </a>
