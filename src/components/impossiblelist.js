@@ -32,7 +32,7 @@ class ImpossibleList extends Component {
     return (
       <div>
         <Navigation active="about" />
-        <Container style={{ paddingTop: "2.5em", textAlign: "center" }}>
+        <Container style={{ paddingTop: "1.5em", textAlign: "center" }}>
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
               <h1>My Impossible List</h1>

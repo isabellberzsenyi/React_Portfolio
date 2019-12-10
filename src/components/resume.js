@@ -25,7 +25,7 @@ const Resume = props => {
   return (
     <div>
       <Navigation active="resume" />
-      <Container style={{ paddingTop: "2em", textAlign: "center" }}>
+      <Container style={{ paddingTop: "1em", textAlign: "center" }}>
         <Row>
           <Col md={{ size: 8, offset: 2 }}>
             <h1>Resume</h1>

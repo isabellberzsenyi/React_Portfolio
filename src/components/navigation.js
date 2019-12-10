@@ -50,14 +50,19 @@ class Navigation extends Component {
       <Container>
         <Row>
           <Col md={{ size: 10, offset: 1 }} style={{ textAlign: "center" }}>
-            <h1
+            <h2
               className="navigation-header"
               style={{ paddingBottom: "1%", paddingTop: "1%" }}
             >
-              <a href="/" style={{ textDecoration: "none" }}>
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none"
+                }}
+              >
                 Isabell Berzsenyi
               </a>
-            </h1>
+            </h2>
           </Col>
         </Row>
         <Row>

@@ -11,7 +11,7 @@ import {
 class Footer extends Component {
   render() {
     return (
-      <Container style={{ marginTop: "1em" }}>
+      <Container style={{ marginTop: ".5em" }}>
         <Row>
           <Col md={{ size: 7 }}>
             <h6 className="footer-right">

@@ -31,7 +31,7 @@ const Projects = props => {
   return (
     <div>
       <Navigation active="projects" />
-      <Container style={{ paddingTop: "2em", textAlign: "center" }}>
+      <Container style={{ paddingTop: "1em", textAlign: "center" }}>
         <Row>
           <Col md={{ size: 8, offset: 2 }}>
             <h1>Projects</h1>

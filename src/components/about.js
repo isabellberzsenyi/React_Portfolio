@@ -7,7 +7,7 @@ class About extends Component {
     return (
       <div style={{ marginBottom: "-1em" }}>
         <Navigation active="about" />
-        <Container style={{ paddingTop: "2em", textAlign: "center" }}>
+        <Container style={{ paddingTop: "1em", textAlign: "center" }}>
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
               <h1>About</h1>

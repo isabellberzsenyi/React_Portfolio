@@ -13,7 +13,7 @@ class Contact extends Component {
     return (
       <div>
         <Navigation active="contact" />
-        <Container style={{ paddingTop: "2.5em", textAlign: "center" }}>
+        <Container style={{ paddingTop: "1.5em", textAlign: "center" }}>
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
               <h1>Contact Izzy</h1>
