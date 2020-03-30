@@ -22,13 +22,9 @@ class Contact extends Component {
           </Row>
           <Row style={{ paddingTop: "3em" }}>
             <Col md={{ size: 2, offset: 2 }}>
-              //{" "}
-              <a href="mailto:berzsenyi.i@husky.neu.edu">
-                <div className="icon-background">
-                  <FaEnvelope className="contact-icon" />
-                </div>
-                //{" "}
-              </a>
+              <div className="icon-background">
+                <FaEnvelope className="contact-icon" />
+              </div>
             </Col>
             <Col md={{ size: 2 }}>
               <a
@@ -60,12 +56,7 @@ class Contact extends Component {
 
           <Row className="contact-second-row">
             <Col md={{ size: 2, offset: 2 }}>
-              <a
-                href="mailto:berzsenyi.i@husky.neu.edu"
-                style={{ textDecoration: "none" }}
-              >
-                <h4 className="contact-links">Email</h4>
-              </a>
+              <h4 className="contact-links">Email</h4>
             </Col>
             <Col md={{ size: 2 }}>
               <a
