@@ -77,9 +77,13 @@ class Contact extends Component {
               </a>
             </Col>
             <Col md={{ size: 2 }}>
+              /*
               <a onClick={this.onResumeClick}>
+                */
                 <h4 className="contact-links">Resume</h4>
+                /*
               </a>
+              */
             </Col>
           </Row>
         </Container>
