@@ -44,13 +44,15 @@ class Contact extends Component {
               </a>
             </Col>
             <Col md={{ size: 2 }}>
-              //{" "}
+              /*
               <a onClick={this.onResumeClick} target="_blank">
+                */
                 <div className="icon-background">
                   <FaFile className="contact-icon" />
                 </div>
-                //{" "}
+                /*
               </a>
+              */
             </Col>
           </Row>
 
