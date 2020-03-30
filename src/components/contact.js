@@ -22,10 +22,12 @@ class Contact extends Component {
           </Row>
           <Row style={{ paddingTop: "3em" }}>
             <Col md={{ size: 2, offset: 2 }}>
+              //{" "}
               <a href="mailto:berzsenyi.i@husky.neu.edu">
                 <div className="icon-background">
                   <FaEnvelope className="contact-icon" />
                 </div>
+                //{" "}
               </a>
             </Col>
             <Col md={{ size: 2 }}>
@@ -46,10 +48,12 @@ class Contact extends Component {
               </a>
             </Col>
             <Col md={{ size: 2 }}>
+              //{" "}
               <a onClick={this.onResumeClick} target="_blank">
                 <div className="icon-background">
                   <FaFile className="contact-icon" />
                 </div>
+                //{" "}
               </a>
             </Col>
           </Row>

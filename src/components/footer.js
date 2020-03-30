@@ -20,8 +20,10 @@ class Footer extends Component {
           </Col>
           <Col md={{ size: 5 }}>
             <h6 style={{ textAlign: "right" }}>
+              //{" "}
               <a href="mailto:berzsenyi.i@husky.neu.edu">
                 <FaEnvelope className="footer-icon" />
+                //{" "}
               </a>
               <a
                 href="https://www.linkedin.com/in/isabell-berzsenyi"
