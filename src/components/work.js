@@ -35,7 +35,7 @@ class Work extends Component {
                 padding: "0"
               }}
             >
-              <h5>{this.props.role}</h5>
+              <b>{this.props.role}</b>
             </Col>
             <Col
               md={{ size: 5 }}
@@ -54,10 +54,6 @@ class Work extends Component {
                 <li>{this.props.list1}</li>
                 <li>{this.props.list2}</li>
                 <li>{this.props.list3}</li>
-                <li>
-                  <b>Key Achievement: </b>
-                  {this.props.keyachieve}
-                </li>
               </ul>
             </Col>
           </Row>
@@ -68,28 +64,3 @@ class Work extends Component {
 }
 
 export default Work;
-
-{
-  /*<VerticalTimelineElement
-  className="vertical-timeline-element--work"
-  date={this.props.dates}
-  iconStyle={{ background: "pink", color: "#fff" }}
->
-  <h3 className="vertical-timeline-element-title">
-    {this.props.compName}
-  </h3>
-  <h5 className="vertical-timeline-element-subtitle">
-    {this.props.role} | {this.props.location}
-  </h5>
-  <p>
-    <ul>
-      <li>{this.props.list1}</li>
-      <li>{this.props.list2}</li>
-      <li>
-        <b>Key Achievement: </b>
-        {this.props.keyachieve}
-      </li>
-    </ul>
-  </p>
-</VerticalTimelineElement>*/
-}

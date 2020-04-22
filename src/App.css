@@ -493,6 +493,15 @@ button {
   cursor: pointer;
 }
 /* Resume */
+.resume-bold {
+  font-weight: bold;
+  color: #8c2c16;
+}
+.resume-bold:hover {
+  font-weight: bold;
+  cursor: pointer;
+  color: #8c2c16;
+}
 .res-drawers {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -505,3 +514,4 @@ button {
   cursor: pointer;
   color: #8c2c16;
 }
+

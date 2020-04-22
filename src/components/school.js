@@ -56,7 +56,7 @@ class School extends Component {
             >
               <p>
                 <b>Relevant Courses:</b> Object-Oriented Design, Logic and
-                Computation, Embedded Design, Fundamentals of Computer Science,
+                Computation, Embedded Design: Enabling Robotics, Fundamentals of Computer Science 1 and 2,
                 Algorithms and Data Structures, Computer Systems
               </p>
             </Col>

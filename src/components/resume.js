@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Collapse, CardBody, Card } from "reactstrap";
-import Education from "./education";
 import Navigation from "./navigation";
 import Work from "./work";
 import Skills from "./skills";
@@ -29,14 +28,13 @@ const Resume = props => {
         <Row>
           <Col md={{ size: 8, offset: 2 }}>
             <h1>Resume</h1>
-            <h6 style={{ fontWeight: "normal" }}>
+            <h6 style={{ fontWeight: "normal", textAlign:"center" }}>
               <b>
-                I am now applying for a fall (July 2020 - Jan 2020) Software
-                Engineering/Developping co-op.
+                I am an incoming Software Engineering Intern at AppFolio, Inc. for the summer and fall of 2020.
               </b>
               <br />
               You can learn more about my experience below or download my resume
-              <a onClick={onResumeClick}> here</a>!
+              <h7 className="resume-bold" onClick={onResumeClick}> here</h7>!
             </h6>
           </Col>
         </Row>
@@ -67,24 +65,22 @@ const Resume = props => {
                 <Card>
                   <CardBody>
                     <Work
-                      dates="July 2019 - Dec 2019"
+                      dates="July - December 2019"
                       compName="Thermo Fisher Scientific"
                       role="Software Engineering Co-op"
                       location="Boston, MA"
-                      list1="Curate solutions to bugs and customer issues on released gas chemical analysis instruments, issues tracked in Jira and solutions written in C++ and C"
-                      list2="Perform regression testing before releasing new quarterly software"
-                      list3="Participate and contribute in daily sprint meetings, bi-weekly planning and retrospective meetings"
-                      keyachieve=" Analyze code to understand where bugs are and problem solve to cultivate a solution that does not disrupt the rest of the programs"
+                      list1="Identified cybersecurity risks involving FTP, Telnet, and SSH and delivered new security features for gas analysis instruments"
+                      list2="Curated solutions to address customer issues on released instruments, tracked issues in Jira, and wrote solutions in C++ and C"
+                      list3="Performed regression testing for instrument security using a recently released firmware"
                     />
                     <Work
-                      dates="May 2018 - Aug 2018"
+                      dates="May - August 2018"
                       compName="Luxfer Holdings, PLC"
                       role="Investor Relations Intern"
                       location="Milwaukee, WI"
-                      list1="Proposed and implemented new architecture, organization and design for corporate website"
-                      list2="Revised and developed written content to make information more readable and current"
-                      list3="Led communication with international vendors and business unit managers to collaborate on ideas and execute design"
-                      keyachieve=" Designed the company website to have a new look and up-to-date content, see luxfer.com"
+                      list1="Designed and launched a new website with new look and updated content (https://www.luxfer.com/)"
+                      list2="Proposed and implemented new architecture, organization, and design for the corporate website"
+                      list3="Led communication with international vendors and collaborated with business unit managers on ideas to execute design"
                     />
                   </CardBody>
                 </Card>
@@ -104,17 +100,16 @@ const Resume = props => {
                   <CardBody>
                     <Skills
                       type="Programming Languages"
-                      list="C++, Java, JavaScript (Intermediate), HTML, CSS, Command Line, Dr. Racket"
+                      list="C++, Java, JavaScript (Intermediate), HTML, CSS, Command Line"
                     />
                     <Skills
                       type="Frameworks"
-                      list="React (Intermediate), Bootstrap"
+                      list="React (Intermediate), Bootstrap, Agile"
                     />
                     <Skills
                       type="Tools"
                       list="Git, SVN, Microsoft Office Suite"
                     />
-                    <Skills type="Methodologies" list="Agile" />
                     <Skills
                       type="Languages"
                       list="Hungarian (Fluent), French (Intermediate)"

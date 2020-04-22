@@ -14,7 +14,7 @@ class About extends Component {
     return (
       <div>
         <SpotifyPlayer
-          uri="spotify:playlist:6j8Uyy1d1P0URXqqv2r0ht"
+          uri="spotify:playlist:3za15cKGtoR0aZOdqgORM7"
           size={size}
           view={view}
           theme={theme}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import Navigation from "./navigation";
-import { FaEnvelope, FaLinkedinIn, FaGithub, FaFile } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaFile } from "react-icons/fa";
 import Resume from "./../RESUME.pdf";
 
 class Contact extends Component {
@@ -21,12 +21,12 @@ class Contact extends Component {
             </Col>
           </Row>
           <Row style={{ paddingTop: "3em" }}>
-            <Col md={{ size: 2, offset: 2 }}>
+            {/* <Col md={{ size: 2, offset: 2 }}>
               <div className="icon-background">
                 <FaEnvelope className="contact-icon" />
               </div>
-            </Col>
-            <Col md={{ size: 2 }}>
+            </Col> */}
+            <Col md={{ size: 2, offset: 3 }}>
               <a
                 href="https://www.linkedin.com/in/isabell-berzsenyi"
                 target="_blank"
@@ -44,17 +44,17 @@ class Contact extends Component {
               </a>
             </Col>
             <Col md={{ size: 2 }}>
-              <div className="icon-background">
+              <div onClick={this.onResumeClick} target="_blank" className="icon-background">
                 <FaFile className="contact-icon" />
               </div>
             </Col>
           </Row>
 
           <Row className="contact-second-row">
-            <Col md={{ size: 2, offset: 2 }}>
+            {/* <Col md={{ size: 2, offset: 2 }}>
               <h4 className="contact-links">Email</h4>
-            </Col>
-            <Col md={{ size: 2 }}>
+            </Col> */}
+            <Col md={{ size: 2, offset: 3 }}>
               <a
                 href="https://www.linkedin.com/in/isabell-berzsenyi"
                 target="_blank"

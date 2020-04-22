@@ -18,8 +18,8 @@ class Now extends Component {
               <h6>
                 This section contains what I'm up to at the moment and my recent
                 accomplishments. It balances out my goal-focused mindset seen
-                <a href="/impossiblelist">here</a>. This page is inspired by
-                <a href="https://sivers.org/now">Derek Sivers</a>.
+                <a href="/impossiblelist"> here</a>. This page is inspired by
+                <a href="https://sivers.org/now"> Derek Sivers</a>.
               </h6>
             </Col>
           </Row>
@@ -30,21 +30,16 @@ class Now extends Component {
               </h3>
               <ul>
                 <li>
-                  Currently I'm living in <b>Boston, MA</b> and finishing up my
-                  six-month co-op working at Thermo Fisher Scientific as a
-                  Software Engineer
+                  Currently I'm living in <b>Boston, MA</b> and just finished my third year at Northeastern University.
+                   
                 </li>
                 <li>
-                  In my free time I love to slow down and wind down and practice
-                  <b> yoga</b> and meditation
+                  In my free time I love to slow down and practice
+                  <b> yoga</b>.
                 </li>
                 <li>
-                  I'm also pushing myself to train for my second{" "}
-                  <b>half marathon</b> in March
-                </li>
-                <li>
-                  My latest personal project is teaching myself <b>React</b> and
-                  creating this website
+                  My latest personal project is teaching myself <b>Ruby</b> through Codecademy and creating <b>Khoury Kalendar </b>  
+                  in my Human Computer Interaction course.
                 </li>
               </ul>
             </Col>
@@ -56,15 +51,14 @@ class Now extends Component {
               </h3>
               <ul>
                 <li>
-                  Spending quality time with my friends, boyfriend and family,
-                  and being the best friend/girlfriend/daughter/sister I can be
+                  Spending virtual quality time with friends and family near and far, overall connecting while apart.
                 </li>
                 <li>
-                  Listening to my body with how I stay active and what I eat
+                  Keeping myself sane while practicing social distancing, by journaling, working out, teaching myself Ruby
+                   and cooking.
                 </li>
                 <li>
-                  Personal projects, practicing coding problems and reading
-                  about the programming community
+                  Practicing my headstand!
                 </li>
               </ul>
             </Col>
@@ -76,13 +70,13 @@ class Now extends Component {
               </h3>
               <ul>
                 <li>
-                  Recently finished reading <b>The Defining Decade</b> by Meg
-                  Jay and now reading <b>The Subtle Art of Not Giving a F*ck</b>{" "}
-                  by Mark Manson
+                  Recently finished reading <b>The Brain: The Story of You</b> by David Eagleman
+                   and now I'm reading <b>The War Doctor</b>{" "}
+                  by David Nott.
                 </li>
                 <li>
                   I have become obsessed with Podcasts, my favorites right now
-                  are <b>Girls Gotta Eat</b> and <b>Beautiful/Anonymous</b>
+                  are <b>Girls Gotta Eat</b> and <b>Moden Love.</b>
                 </li>
                 <li>
                   I love to listen to music here are my favorite songs at the

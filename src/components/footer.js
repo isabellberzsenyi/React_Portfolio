@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import {
   FaHeart,
-  FaEnvelope,
   FaLinkedinIn,
   FaGithub,
   FaCoffee
@@ -20,7 +19,6 @@ class Footer extends Component {
           </Col>
           <Col md={{ size: 5 }}>
             <h6 style={{ textAlign: "right" }}>
-              <FaEnvelope className="footer-icon" />
               <a
                 href="https://www.linkedin.com/in/isabell-berzsenyi"
                 target="_blank"

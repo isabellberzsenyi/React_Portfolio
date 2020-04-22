@@ -1,30 +1,34 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Table } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import Navigation from "./navigation";
 import { CsvToHtmlTable } from "react-csv-to-table";
 
 const impList = `
 Category,Task,Status,Completed
-Mind/Body, Meditate for 7 days straight, ,
-Mind/Body, Meditate for 30 days straight, ,
-Mind/Body, Run 2nd Half Marathon, ,
-Learning, Read 1 book/week for a month, ,
-Travel, Climb Machu Picchu, ,
-Travel, Hike the Santa Domingo trail, ,
-Travel, Solo trip around Europe, ,
-Travel, Trip to Asia, ,
+Mind/Body, Meditate for 7 days straight, Done, Yes
+Mind/Body, Complete 8 weeks of Sweat It To Shred It, Working,
+Learning, Create a blog, Working,
+Art, Paint jeans, ,
+Learning, Create Khoury Kalendar in Ruby, ,
+Learning, Listen to a french podcast, ,
+Learning, Watch a Ted Talk, , 
+Learning, Complete Ruby on Codecademy, Done, Yes
+Art, Create a Self-Portrait, ,
+Personal, Write letters, ,
+Personal, Create a Post-Quarantine list, ,
 `;
 
 const working = `
 Category,Task
-Mind/Body, Meditate for 7 days straight
-Learning, Read 1 book/week for a month
+Mind/Body, Week 1 of Sweat It To Shred It
+Learning, Create a blog
+Art, Paint jeans
 `;
 
 const completed = `
-Category,Task, Completed
-Mind/Body, Meditate for 7 days straight,
-
+Category,Task
+Mind/Body, Meditate for 7 days straight
+Learning, Complete Ruby on Codecademy
 `;
 
 class ImpossibleList extends Component {
@@ -36,10 +40,11 @@ class ImpossibleList extends Component {
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
               <h1>My Impossible List</h1>
-              <h4 style={{ paddingTop: "1em" }}>
+              {/* <h4 style={{ paddingTop: "1em" }}>
                 It's only impossible until I get it done, this is all a work in
                 progress.
-              </h4>
+              </h4> */}
+              <h4 style={{ paddingTop: "1em" }}>Quarantine Edition - April 21, 2020</h4>
               <h6>
                 A normal bucket list is boring, consisting of things that seem
                 possible. But an impossible list is the opposite, all the things

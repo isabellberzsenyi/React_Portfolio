@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Error from "./components/error";
-import Navigation from "./components/navigation";
 import Projects from "./components/projects";
 import Resume from "./components/resume";
 import Footer from "./components/footer";

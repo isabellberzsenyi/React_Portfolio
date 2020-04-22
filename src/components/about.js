@@ -36,10 +36,11 @@ class About extends Component {
             >
               <h3>Hi I'm Izzy Berzsenyi!</h3>
               <p>
-                I'm a third year Computer Science student at Northeastern
-                University. Currently, I am finishing up my fall semester
-                working at Thermo Fisher Scientific, as a Software Engineering
-                co-op. My love for programming can be traced back to my first
+                I'm an incoming fourth year Computer Science student at Northeastern University, and a Software Engineering
+                Intern at AppFolio for the Summer and Fall of 2020. During my third year, I completed a six month co-op 
+                during my fall semester at Thermo Fisher Scientific, as a Software Engineering
+                co-op. Then in the spring semester I took courses towards my major, including Computer Systems, Human 
+                Computer Interaction and Algorithms and Data. My love for programming can be traced back to my first
                 semester of freshman year and I have not looked back since. I
                 enjoy applying various programming languages to solve
                 challenging problems. In addition, I love to explore my interest
