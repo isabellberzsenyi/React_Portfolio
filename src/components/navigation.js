@@ -3,8 +3,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  NavbarBrand,
-  Navbar,
   Container,
   Row,
   Col,
@@ -13,13 +11,6 @@ import {
   DropdownToggle,
   DropdownMenu
 } from "reactstrap";
-import About from "./about";
-import Contact from "./contact";
-import Projects from "./projects";
-
-const activeStyle = { color: "purple" };
-const nonActiveStyle = { color: "lightblue" };
-const hoverStyle = { color: "teal" };
 
 class Navigation extends Component {
   constructor(props) {
@@ -120,6 +111,15 @@ class Navigation extends Component {
                     href="impossiblelist"
                   >
                     <p className="dropdown">Impossible List</p>
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem
+                    style={{
+                      backgroundColor: "white"
+                    }}
+                    href="https://berzsenyi-portfolio.weebly.com/thoughts-and-tangents"
+                  >
+                    <p className="dropdown">Thoughts and Tangents</p>
                   </DropdownItem>
                 </DropdownMenu>
               </Dropdown>
