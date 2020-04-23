@@ -81,7 +81,7 @@ class ImpossibleList extends Component {
           <Row style={{ marginTop: "2em" }}>
             <Col md={{ size: 10, offset: 1 }}>
               <h4 style={{ color: "#8c2c16", marginBottom: ".5em" }}>
-                Complete Impossible List
+                Complete Quarantine Bucket List
               </h4>
               <CsvToHtmlTable
                 data={impList}
