@@ -36,7 +36,7 @@ class About extends Component {
             >
               <h3>Hi I'm Izzy Berzsenyi!</h3>
               <p>
-                I'm an incoming fourth year Computer Science student at Northeastern University, and a Software Engineering
+                I'm a fourth year Computer Science student at Northeastern University, and a Software Engineering
                 Intern at AppFolio for the Summer and Fall of 2020. During my third year, I completed a six month co-op 
                 during my fall semester at Thermo Fisher Scientific, as a Software Engineering
                 co-op. Then in the spring semester I took courses towards my major, including Computer Systems, Human 

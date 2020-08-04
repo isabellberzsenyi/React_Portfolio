@@ -30,16 +30,13 @@ class Now extends Component {
               </h3>
               <ul>
                 <li>
-                  Currently I'm living in <b>Boston, MA</b> and just finished my third year at Northeastern University.
-                   
+                  Currently I'm living in <b>Boston, MA</b> and remotely interning at <b>AppFolio</b>, on the MyCase product.
                 </li>
                 <li>
-                  In my free time I love to slow down and practice
-                  <b> yoga</b>.
+                  I'm enjoying working out outside, while also learning to enjoy running again!
                 </li>
                 <li>
-                  My latest personal project is teaching myself <b>Ruby</b> through Codecademy and creating <b>Khoury Kalendar </b>  
-                  in my Human Computer Interaction course.
+                  My newest personal project is creating a <b>Work Generator</b> with a cool name and code coming soon!
                 </li>
               </ul>
             </Col>
@@ -51,14 +48,13 @@ class Now extends Component {
               </h3>
               <ul>
                 <li>
-                  Spending virtual quality time with friends and family near and far, overall connecting while apart.
+                  Living in the moment and spending quality time with my closest friends.
                 </li>
                 <li>
-                  Keeping myself sane while practicing social distancing, by journaling, working out, teaching myself Ruby
-                   and cooking.
+                  Focusing on eating whole foods and learning to cook delicious (and healtny) meals!
                 </li>
                 <li>
-                  Practicing my headstand!
+                  Learning work-life balance, while being challenged daily at my remote internship.
                 </li>
               </ul>
             </Col>
@@ -76,7 +72,7 @@ class Now extends Component {
                 </li>
                 <li>
                   I have become obsessed with Podcasts, my favorites right now
-                  are <b>Girls Gotta Eat</b> and <b>Moden Love.</b>
+                  are <b>Girls Gotta Eat</b> and <b>The Daily.</b>
                 </li>
                 <li>
                   I love to listen to music here are my favorite songs at the
