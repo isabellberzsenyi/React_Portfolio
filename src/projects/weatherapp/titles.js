@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Titles = (props) => {
   return (
@@ -6,7 +6,7 @@ const Titles = (props) => {
       <h1 className="title-container_title">Weather App</h1>
       <p className="title-container_subtitle">Helps you find weather conditions in cities...</p>
     </div>
-  )
-}
+  );
+};
 
 export default Titles;

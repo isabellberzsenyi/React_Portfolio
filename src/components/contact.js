@@ -27,10 +27,7 @@ class Contact extends Component {
               </div>
             </Col> */}
             <Col md={{ size: 2, offset: 3 }}>
-              <a
-                href="https://www.linkedin.com/in/isabell-berzsenyi"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/isabell-berzsenyi" target="_blank">
                 <div className="icon-background">
                   <FaLinkedinIn className="contact-icon" />
                 </div>

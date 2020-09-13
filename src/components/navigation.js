@@ -9,7 +9,7 @@ import {
   Dropdown,
   DropdownItem,
   DropdownToggle,
-  DropdownMenu
+  DropdownMenu,
 } from "reactstrap";
 
 class Navigation extends Component {
@@ -19,12 +19,12 @@ class Navigation extends Component {
     this.onMouseEnter = this.onMouseEnter.bind(this);
     this.onMouseLeave = this.onMouseLeave.bind(this);
     this.state = {
-      dropdownOpen: false
+      dropdownOpen: false,
     };
   }
   toggle() {
-    this.setState(prevState => ({
-      dropdownOpen: !prevState.dropdownOpen
+    this.setState((prevState) => ({
+      dropdownOpen: !prevState.dropdownOpen,
     }));
   }
 
@@ -41,14 +41,11 @@ class Navigation extends Component {
       <Container>
         <Row>
           <Col md={{ size: 10, offset: 1 }} style={{ textAlign: "center" }}>
-            <h2
-              className="navigation-header"
-              style={{ paddingBottom: "1%", paddingTop: "1%" }}
-            >
+            <h2 className="navigation-header" style={{ paddingBottom: "1%", paddingTop: "1%" }}>
               <a
                 href="/"
                 style={{
-                  textDecoration: "none"
+                  textDecoration: "none",
                 }}
               >
                 Isabell Berzsenyi
@@ -65,7 +62,7 @@ class Navigation extends Component {
                 fontSize: "20px",
                 borderBottom: "2px solid black",
                 paddingBottom: "10px",
-                marginBottom: "0"
+                marginBottom: "0",
               }}
             >
               <Dropdown
@@ -77,18 +74,14 @@ class Navigation extends Component {
               >
                 <DropdownToggle
                   nav
-                  className={
-                    this.props.active === "about"
-                      ? "navLinkActive"
-                      : "navLinkNonActive"
-                  }
+                  className={this.props.active === "about" ? "navLinkActive" : "navLinkNonActive"}
                 >
                   About
                 </DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem
                     style={{
-                      backgroundColor: "white"
+                      backgroundColor: "white",
                     }}
                     href="/"
                   >
@@ -97,38 +90,18 @@ class Navigation extends Component {
                   <DropdownItem divider />
                   <DropdownItem
                     style={{
-                      backgroundColor: "white"
+                      backgroundColor: "white",
                     }}
                     href="/now"
                   >
                     <p className="dropdown">What I'm up to now</p>
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem
-                    style={{
-                      backgroundColor: "white"
-                    }}
-                    href="impossiblelist"
-                  >
-                    <p className="dropdown">Impossible List</p>
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem
-                    style={{
-                      backgroundColor: "white"
-                    }}
-                    href="https://berzsenyi-portfolio.weebly.com/thoughts-and-tangents"
-                  >
-                    <p className="dropdown">Thoughts and Tangents</p>
                   </DropdownItem>
                 </DropdownMenu>
               </Dropdown>
               <NavItem>
                 <NavLink
                   className={
-                    this.props.active === "projects"
-                      ? "navLinkActive"
-                      : "navLinkNonActive"
+                    this.props.active === "projects" ? "navLinkActive" : "navLinkNonActive"
                   }
                   href="/projects"
                 >
@@ -137,11 +110,7 @@ class Navigation extends Component {
               </NavItem>
               <NavItem>
                 <NavLink
-                  className={
-                    this.props.active === "resume"
-                      ? "navLinkActive"
-                      : "navLinkNonActive"
-                  }
+                  className={this.props.active === "resume" ? "navLinkActive" : "navLinkNonActive"}
                   href="/resume"
                 >
                   Resume
@@ -149,11 +118,7 @@ class Navigation extends Component {
               </NavItem>
               <NavItem>
                 <NavLink
-                  className={
-                    this.props.active === "contact"
-                      ? "navLinkActive"
-                      : "navLinkNonActive"
-                  }
+                  className={this.props.active === "contact" ? "navLinkActive" : "navLinkNonActive"}
                   href="/contact"
                 >
                   Contact

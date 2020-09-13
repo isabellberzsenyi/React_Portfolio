@@ -14,26 +14,20 @@ class Weather extends Component {
         )}
         {this.props.temperature && (
           <p className="weather_key">
-            Temperature:{" "}
-            <span className="weather_value">{this.props.temperature}</span> deg
-            F
+            Temperature: <span className="weather_value">{this.props.temperature}</span> deg F
           </p>
         )}
         {this.props.humidity && (
           <p className="weather_key">
-            Humidity:{" "}
-            <span className="weather_value">{this.props.humidity}</span> %
+            Humidity: <span className="weather_value">{this.props.humidity}</span> %
           </p>
         )}
         {this.props.description && (
           <p className="weather_key">
-            Conditions:{" "}
-            <span className="weather_value">{this.props.description}</span>
+            Conditions: <span className="weather_value">{this.props.description}</span>
           </p>
         )}
-        {this.props.error && (
-          <p className="weather_error">{this.props.error}</p>
-        )}
+        {this.props.error && <p className="weather_error">{this.props.error}</p>}
       </div>
     );
   }

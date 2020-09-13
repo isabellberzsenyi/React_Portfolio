@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from "react";
 
 class ResultComponent extends Component {
   render() {
-    let {result} = this.props;
+    let { result } = this.props;
     return (
-      <div className = "result">
+      <div className="result">
         <p>{result}</p>
       </div>
     );

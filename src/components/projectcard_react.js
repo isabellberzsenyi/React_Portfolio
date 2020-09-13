@@ -10,14 +10,14 @@ import {
   ModalFooter,
   CardImg,
   CardBody,
-  CardSubtitle
+  CardSubtitle,
 } from "reactstrap";
 import Calculator from "./../projects/calculator/Calculator";
 import TicTacToe from "./../projects/tictactoe/TicTacToe";
 import WeatherApp from "./../projects/weatherapp/WeatherApp";
 import ToDoList from "./../projects/todolist/ToDoListApp";
 
-const ProjectCardReact = props => {
+const ProjectCardReact = (props) => {
   const [modal, setModal] = useState(false);
 
   const toggle = () => setModal(!modal);
@@ -29,18 +29,12 @@ const ProjectCardReact = props => {
           <CardTitle style={{ fontWeight: "bolder" }}>
             <h4 className="cardTitle">{props.title}</h4>
           </CardTitle>
-          <img
-            width="50%"
-            height="150px"
-            src={props.image}
-            required
-            alt={props.alt}
-          />
+          <img width="50%" height="150px" src={props.image} required alt={props.alt} />
           <CardSubtitle
             style={{
               marginTop: ".5em",
               marginBottom: ".5em",
-              textAlign: "left"
+              textAlign: "left",
             }}
           >
             <b
@@ -49,7 +43,7 @@ const ProjectCardReact = props => {
                 border: "2px solid #c09f9e",
                 borderRadius: "20%",
                 padding: "2px",
-                marginRight: "5px"
+                marginRight: "5px",
               }}
             >
               Tags:
@@ -59,18 +53,13 @@ const ProjectCardReact = props => {
           <h5
             style={{
               margin: "auto",
-              fontSize: "20px"
+              fontSize: "20px",
             }}
             onClick={toggle}
           >
             Learn More...
           </h5>
-          <Modal
-            isOpen={modal}
-            toggle={toggle}
-            className={props.classname}
-            size="lg"
-          >
+          <Modal isOpen={modal} toggle={toggle} className={props.classname} size="lg">
             <ModalHeader toggle={toggle}>
               <h1>{props.title}</h1>
             </ModalHeader>
@@ -86,30 +75,18 @@ const ProjectCardReact = props => {
                       {props.project === "weatherapp" ? (
                         <WeatherApp />
                       ) : (
-                        <div>
-                          {props.project === "todolist" ? (
-                            <ToDoList />
-                          ) : (
-                            <div> "eek"</div>
-                          )}
-                        </div>
+                        <div>{props.project === "todolist" ? <ToDoList /> : <div> "eek"</div>}</div>
                       )}
                     </div>
                   )}
                 </div>
               )}
             </ModalBody>
-            <ModalFooter
-              style={{ margin: "auto", width: "100%", textAlign: "center" }}
-            >
+            <ModalFooter style={{ margin: "auto", width: "100%", textAlign: "center" }}>
               {props.codeBol ? (
                 <div style={{ width: "100%", textAlign: "center" }}>
                   <p>
-                    <a
-                      style={{ color: "#8c2c16" }}
-                      href={props.codeLink}
-                      target="_blank"
-                    >
+                    <a style={{ color: "#8c2c16" }} href={props.codeLink} target="_blank">
                       View Code
                     </a>
                   </p>
@@ -118,15 +95,12 @@ const ProjectCardReact = props => {
                 <div
                   style={{
                     width: "100%",
-                    textAlign: "center"
+                    textAlign: "center",
                   }}
                 >
-                  <a
-                    style={{ color: "#8c2c16" }}
-                    href="mailto:iberzsenyi@yahoo.com"
-                  >
-                    To prevent plagiarism, the code to this project is hidden.
-                    To get more information please contact me.
+                  <a style={{ color: "#8c2c16" }} href="mailto:iberzsenyi@yahoo.com">
+                    To prevent plagiarism, the code to this project is hidden. To get more
+                    information please contact me.
                   </a>
                 </div>
               )}

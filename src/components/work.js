@@ -11,7 +11,7 @@ class Work extends Component {
               md={{ size: 5, offset: 1 }}
               style={{
                 textAlign: "left",
-                padding: "0"
+                padding: "0",
               }}
             >
               <h4>{this.props.compName}</h4>
@@ -20,7 +20,7 @@ class Work extends Component {
               md={{ size: 5 }}
               style={{
                 textAlign: "right",
-                padding: "0"
+                padding: "0",
               }}
             >
               <b>{this.props.dates}</b>
@@ -32,7 +32,7 @@ class Work extends Component {
               md={{ size: 5, offset: 1 }}
               style={{
                 textAlign: "left",
-                padding: "0"
+                padding: "0",
               }}
             >
               <b>{this.props.role}</b>
@@ -41,7 +41,7 @@ class Work extends Component {
               md={{ size: 5 }}
               style={{
                 textAlign: "right",
-                padding: "0"
+                padding: "0",
               }}
             >
               <b>{this.props.location}</b>

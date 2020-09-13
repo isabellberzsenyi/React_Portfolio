@@ -16,9 +16,8 @@ class Now extends Component {
                 Life changes a lot but here's what's going on now.
               </h4>
               <h6>
-                This section contains what I'm up to at the moment and my recent
-                accomplishments. It balances out my goal-focused mindset seen
-                <a href="/impossiblelist"> here</a>. This page is inspired by
+                This section contains what I'm up to at the moment and my recent accomplishments.
+                This page is inspired by
                 <a href="https://sivers.org/now"> Derek Sivers</a>.
               </h6>
             </Col>
@@ -30,13 +29,14 @@ class Now extends Component {
               </h3>
               <ul>
                 <li>
-                  Currently I'm living in <b>Boston, MA</b> and remotely interning at <b>AppFolio</b>, on the MyCase product.
+                  Currently I'm living in <b>Milwaukee, WI</b> and working remotely full-time as a
+                  Software Engineering Intern at <b>MyCase, Inc.</b> on the Payments team.
                 </li>
                 <li>
-                  I'm enjoying working out outside, while also learning to enjoy running again!
-                </li>
-                <li>
-                  My newest personal project is creating a <b>Work Generator</b> with a cool name and code coming soon!
+                  My newest personal project is creating <b>Work It</b>, a work out generator. It's
+                  currently a work in progress where I can improve my Python and React skills. You
+                  can check out my code{" "}
+                  <a href="https://github.com/isabellberzsenyi/Work-It">here</a>.
                 </li>
               </ul>
             </Col>
@@ -48,13 +48,15 @@ class Now extends Component {
               </h3>
               <ul>
                 <li>
-                  Living in the moment and spending quality time with my closest friends.
+                  Living in the moment and spending quality time with my closest friends and family.
                 </li>
                 <li>
-                  Focusing on eating whole foods and learning to cook delicious (and healtny) meals!
+                  Improving my Python skills, specifically learning how to create a full-stack
+                  application.
                 </li>
                 <li>
-                  Learning work-life balance, while being challenged daily at my remote internship.
+                  Learning work-life balance, while being challenged daily at my remote internship,
+                  networking with colleagues and beating the Zoom burnout.
                 </li>
               </ul>
             </Col>
@@ -66,18 +68,13 @@ class Now extends Component {
               </h3>
               <ul>
                 <li>
-                  Recently finished reading <b>The Brain: The Story of You</b> by David Eagleman
-                   and now I'm reading <b>The War Doctor</b>{" "}
-                  by David Nott.
+                  Recently finished reading <b>The Brain: The Story of You</b> by David Eagleman and
+                  now I'm reading <b>The War Doctor</b> by David Nott.
                 </li>
                 <li>
-                  I have become obsessed with Podcasts, my favorites right now
-                  are <b>Girls Gotta Eat</b> and <b>The Daily.</b>
+                  I have become obsessed with podcasts, my favorite right now is <b>The Daily.</b>
                 </li>
-                <li>
-                  I love to listen to music here are my favorite songs at the
-                  moment:
-                </li>
+                <li>I love to listen to music here are my favorite songs at the moment:</li>
               </ul>
             </Col>
             <Col md={{ size: 6, offset: 3 }}>

@@ -16,7 +16,7 @@ class Skills extends Component {
               <p
                 style={{
                   paddingTop: "1em",
-                  paddingBottom: "1em"
+                  paddingBottom: "1em",
                 }}
               >
                 {this.props.list}

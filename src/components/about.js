@@ -31,25 +31,24 @@ class About extends Component {
               style={{
                 marginTop: "1em",
                 textAlign: "justify",
-                marginBottom: "-.5em"
+                marginBottom: "-.5em",
               }}
             >
               <h3>Hi I'm Izzy Berzsenyi!</h3>
               <p>
-                I'm a fourth year Computer Science student at Northeastern University, and a Software Engineering
-                Intern at AppFolio for the Summer and Fall of 2020. During my third year, I completed a six month co-op 
-                during my fall semester at Thermo Fisher Scientific, as a Software Engineering
-                co-op. Then in the spring semester I took courses towards my major, including Computer Systems, Human 
-                Computer Interaction and Algorithms and Data. My love for programming can be traced back to my first
-                semester of freshman year and I have not looked back since. I
-                enjoy applying various programming languages to solve
-                challenging problems. In addition, I love to explore my interest
-                in front-end development, seen by me creating this website! When
-                I'm not behind a computer, you can find me on a plane to a new
-                country. I have gotten the amazing opportunity to spend over 6
-                years living abroad in Europe. During my times abroad, I have
-                learned to be appreciative, adaptable and fully immersed in
-                different cultures.
+                I'm a fourth year Computer Science student at Northeastern University, and a
+                Software Engineering Intern at MyCase, Inc on the Payments team for the Summer and
+                Fall of 2020. During my third year, I completed a six month co-op during my fall
+                semester at Thermo Fisher Scientific, as a Software Engineering co-op. Then in the
+                spring semester I took courses towards my major, including Computer Systems, Human
+                Computer Interaction and Algorithms and Data. My love for programming can be traced
+                back to my first semester of freshman year and I have not looked back since. I enjoy
+                applying various programming languages to solve challenging problems. In addition, I
+                love to explore my interest in front-end development, seen by me creating this
+                website! When I'm not behind a computer, you can find me on a plane to a new
+                country. I have gotten the amazing opportunity to spend over 6 years living abroad
+                in Europe. During my times abroad, I have learned to be appreciative, adaptable and
+                fully immersed in different cultures.
               </p>
             </Col>
           </Row>

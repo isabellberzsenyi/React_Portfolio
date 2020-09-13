@@ -12,10 +12,10 @@ class WeatherApp extends Component {
     country: undefined,
     humidity: undefined,
     description: undefined,
-    error: undefined
+    error: undefined,
   };
 
-  getWeather = async e => {
+  getWeather = async (e) => {
     e.preventDefault();
     const city = e.target.elements.city.value;
     const country = e.target.elements.country.value;
@@ -32,11 +32,11 @@ class WeatherApp extends Component {
         country: response.sys.country,
         humidity: response.main.humidity,
         description: response.weather[0].description,
-        error: ""
+        error: "",
       });
     } else {
       this.setState({
-        error: "Please enter the values..."
+        error: "Please enter the values...",
       });
     }
   };

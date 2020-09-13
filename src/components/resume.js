@@ -6,7 +6,7 @@ import Skills from "./skills";
 import School from "./school";
 import Res from "./../RESUME.pdf";
 
-const Resume = props => {
+const Resume = (props) => {
   const onResumeClick = () => {
     window.open(Res);
   };
@@ -28,13 +28,13 @@ const Resume = props => {
         <Row>
           <Col md={{ size: 8, offset: 2 }}>
             <h1>Resume</h1>
-            <h6 style={{ fontWeight: "normal", textAlign:"center" }}>
+            <h6 style={{ fontWeight: "normal", textAlign: "center" }}>
               <b>
-                I am an incoming Software Engineering Intern at AppFolio, Inc. for the summer and fall of 2020.
+                I am a current Software Engineering Intern at MyCase, Inc. for the summer and fall
+                of 2020.
               </b>
               <br />
-              You can learn more about my experience below or download my resume
-              <h7 className="resume-bold" onClick={onResumeClick}> here</h7>!
+              You can learn more about more about my experience below!
             </h6>
           </Col>
         </Row>
@@ -100,19 +100,13 @@ const Resume = props => {
                   <CardBody>
                     <Skills
                       type="Programming Languages"
-                      list="C++, Java, JavaScript (Intermediate), HTML, CSS, Command Line"
+                      list="Java, Ruby, C++, JavaScript, Python, MySQL, HTML, CSS, Command Line"
                     />
-                    <Skills
-                      type="Frameworks"
-                      list="React (Intermediate), Bootstrap, Agile"
-                    />
-                    <Skills
-                      type="Tools"
-                      list="Git, SVN, Microsoft Office Suite"
-                    />
+                    <Skills type="Frameworks" list="Ruby on Rails, React, MVC, Bootstrap, Agile" />
+                    <Skills type="Tools" list="Git, SVN, Microsoft Office Suite" />
                     <Skills
                       type="Languages"
-                      list="Hungarian (Fluent), French (Intermediate)"
+                      list="English (Native), Hungarian (Fluent), French (Intermediate)"
                     />
                   </CardBody>
                 </Card>

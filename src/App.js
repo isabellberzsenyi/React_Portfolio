@@ -8,7 +8,6 @@ import Projects from "./components/projects";
 import Resume from "./components/resume";
 import Footer from "./components/footer";
 import Now from "./components/now";
-import ImpossibleList from "./components/impossiblelist";
 import "./App.css";
 
 class App extends Component {
@@ -23,7 +22,6 @@ class App extends Component {
               <Route path="/resume" component={Resume} exact />
               <Route path="/contact" component={Contact} exact />
               <Route path="/now" component={Now} exact />
-              <Route path="/impossiblelist" component={ImpossibleList} exact />
               <Route component={Error} />
             </Switch>
           </div>

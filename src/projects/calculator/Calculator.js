@@ -7,11 +7,11 @@ class Calculator extends Component {
     super();
 
     this.state = {
-      result: ""
+      result: "",
     };
   }
 
-  onClick = button => {
+  onClick = (button) => {
     if (button === "=") {
       this.calculate();
     } else if (button === "C") {
@@ -20,7 +20,7 @@ class Calculator extends Component {
       this.backspace();
     } else {
       this.setState({
-        result: this.state.result + button
+        result: this.state.result + button,
       });
     }
   };
@@ -28,24 +28,24 @@ class Calculator extends Component {
   calculate = () => {
     try {
       this.setState({
-        result: (eval(this.state.result) || "") + ""
+        result: (eval(this.state.result) || "") + "",
       });
     } catch (e) {
       this.setState({
-        result: "error"
+        result: "error",
       });
     }
   };
 
   reset = () => {
     this.setState({
-      result: ""
+      result: "",
     });
   };
 
   backspace = () => {
     this.setState({
-      result: this.state.result.slice(0, -1)
+      result: this.state.result.slice(0, -1),
     });
   };
 

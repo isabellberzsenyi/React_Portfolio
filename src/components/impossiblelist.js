@@ -46,21 +46,16 @@ class ImpossibleList extends Component {
               </h4> */}
               <h4 style={{ paddingTop: "1em" }}>Quarantine Edition - April 21, 2020</h4>
               <h6>
-                A normal bucket list is boring, consisting of things that seem
-                possible. But an impossible list is the opposite, all the things
-                I have dreamed to do and will do. This page is inspired by
-                <a href="https://impossiblehq.com/impossible-list/">
-                  Joel Runyon
-                </a>
-                . Enjoy!
+                A normal bucket list is boring, consisting of things that seem possible. But an
+                impossible list is the opposite, all the things I have dreamed to do and will do.
+                This page is inspired by
+                <a href="https://impossiblehq.com/impossible-list/">Joel Runyon</a>. Enjoy!
               </h6>
             </Col>
           </Row>
           <Row style={{ marginTop: "1em" }}>
             <Col md={{ size: 5, offset: 1 }}>
-              <h4 style={{ color: "#8c2c16", marginBottom: ".5em" }}>
-                Working on now
-              </h4>
+              <h4 style={{ color: "#8c2c16", marginBottom: ".5em" }}>Working on now</h4>
               <CsvToHtmlTable
                 data={working}
                 csvDelimiter=","
@@ -68,9 +63,7 @@ class ImpossibleList extends Component {
               />
             </Col>
             <Col md={{ size: 5 }}>
-              <h4 style={{ color: "#8c2c16", marginBottom: ".5em" }}>
-                Recently completed
-              </h4>
+              <h4 style={{ color: "#8c2c16", marginBottom: ".5em" }}>Recently completed</h4>
               <CsvToHtmlTable
                 data={completed}
                 csvDelimiter=","

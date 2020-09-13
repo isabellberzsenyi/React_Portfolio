@@ -1,15 +1,5 @@
 import React, { useState } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Nav,
-  NavItem,
-  NavLink,
-  Card,
-  CardTitle,
-  CardText
-} from "reactstrap";
+import { Container, Row, Col, Nav, NavItem, NavLink, Card, CardTitle, CardText } from "reactstrap";
 import ProjectCard from "./projectcard";
 import Navigation from "./navigation";
 
@@ -27,7 +17,7 @@ import tictactoe from "./../img/tictactoe.JPG";
 import weather from "./../img/weather.JPG";
 import ProjectCardReact from "./projectcard_react";
 
-const Projects = props => {
+const Projects = (props) => {
   return (
     <div>
       <Navigation active="projects" />
@@ -36,21 +26,17 @@ const Projects = props => {
           <Col md={{ size: 8, offset: 2 }}>
             <h1>Projects</h1>
             <h6 style={{ fontWeight: "normal" }}>
-              Below you can find my most recent projects, including both school
-              and personal projects. In school, my work is written in Java and
-              often done in groups. Through this opportunity I've learned how to
-              work well with others and how to pair program efficiently. Outside
-              of school, I've spent time learning HTML and CSS to create various
-              personal websites. Then I applied this knowledge to learn React
-              and create this website, along with other small apps found below.
+              Below you can find my most recent projects, including both school and personal
+              projects. In school, my work is written in Java and often done in groups. Through this
+              opportunity I've learned how to work well with others and how to pair program
+              efficiently. Outside of school, I've spent time learning HTML and CSS to create
+              various personal websites. Then I applied this knowledge to learn React and create
+              this website, along with other small apps found below.
             </h6>
           </Col>
         </Row>
         <Row style={{ margin: "auto", paddingTop: "10px" }}>
-          <Col
-            md={{ size: 4, offset: 1 }}
-            style={{ margin: "auto", paddingTop: "10px" }}
-          >
+          <Col md={{ size: 4, offset: 1 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCard
               title="Easy Animator"
               attributes="Group, School, Java"
@@ -92,10 +78,7 @@ const Projects = props => {
           </Col>
         </Row>
         <Row style={{ margin: "auto", paddingTop: "10px" }}>
-          <Col
-            md={{ size: 4, offset: 1 }}
-            style={{ margin: "auto", paddingTop: "10px" }}
-          >
+          <Col md={{ size: 4, offset: 1 }} style={{ margin: "auto", paddingTop: "10px" }}>
             <ProjectCard
               title="HTML Website- Part 2"
               attributes="Solo, Personal, HTML/CSS"

@@ -11,7 +11,7 @@ class School extends Component {
               md={{ size: 4, offset: 1 }}
               style={{
                 textAlign: "left",
-                padding: "0"
+                padding: "0",
               }}
             >
               <b>Northeastern University | Boston, MA</b>
@@ -20,7 +20,7 @@ class School extends Component {
               md={{ size: 6 }}
               style={{
                 textAlign: "right",
-                padding: "0"
+                padding: "0",
               }}
             >
               <b>Expected: Dec 2021</b>
@@ -31,7 +31,7 @@ class School extends Component {
               md={{ size: 4, offset: 1 }}
               style={{
                 textAlign: "left",
-                padding: "0"
+                padding: "0",
               }}
             >
               <i>Bachelor of Science in Computer Science</i>
@@ -40,7 +40,7 @@ class School extends Component {
               md={{ size: 6 }}
               style={{
                 textAlign: "right",
-                padding: "0"
+                padding: "0",
               }}
             >
               <i>GPA: 3.7</i>
@@ -51,13 +51,13 @@ class School extends Component {
               md={{ size: 10, offset: 1 }}
               style={{
                 textAlign: "left",
-                padding: "0"
+                padding: "0",
               }}
             >
               <p>
-                <b>Relevant Courses:</b> Object-Oriented Design, Logic and
-                Computation, Embedded Design: Enabling Robotics, Fundamentals of Computer Science 1 and 2,
-                Algorithms and Data Structures, Computer Systems
+                <b>Relevant Courses:</b> Object-Oriented Design, Logic and Computation, Embedded
+                Design: Enabling Robotics, Fundamentals of Computer Science 1 and 2, Algorithms and
+                Data Structures, Computer Systems
               </p>
             </Col>
           </Row>
@@ -66,7 +66,7 @@ class School extends Component {
               md={{ size: 10, offset: 1 }}
               style={{
                 textAlign: "left",
-                padding: "0"
+                padding: "0",
               }}
             >
               <p>
@@ -83,7 +83,7 @@ class School extends Component {
               md={{ size: 10, offset: 1 }}
               style={{
                 textAlign: "left",
-                padding: "0"
+                padding: "0",
               }}
             >
               <p>
@@ -93,8 +93,8 @@ class School extends Component {
                     <i>NU Women in Technology 09/2018 - Present:</i> Member
                   </li>
                   <li>
-                    <i>Sigma Kappa Sorority 09/2017 - Present:</i> Triangle
-                    Correspondent (01/2019-05/2019), Webmaster (01/2020-05/2020)
+                    <i>Sigma Kappa Sorority 09/2017 - Present:</i> Triangle Correspondent
+                    (01/2019-05/2019), Webmaster (01/2020-05/2020)
                   </li>
                 </ul>
               </p>
