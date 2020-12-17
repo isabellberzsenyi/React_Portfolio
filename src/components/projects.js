@@ -15,7 +15,6 @@ import calculator from "./../img/calculator.JPG";
 import todolist from "./../img/todolist.JPG";
 import tictactoe from "./../img/tictactoe.JPG";
 import weather from "./../img/weather.JPG";
-import ProjectCardReact from "./projectcard_react";
 
 const Projects = (props) => {
   return (
@@ -90,60 +89,6 @@ const Projects = (props) => {
               codeBol={true}
               codeLink="https://github.com/isabellberzsenyi/Intermediate-Resume-HTML"
               demoLink="https://isabellberzsenyi.github.io"
-            />
-          </Col>
-          <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
-            <ProjectCardReact
-              title="Calculator"
-              attributes="Solo, Personal, React"
-              image={calculator}
-              alt="oops"
-              classname="Calculator"
-              codeBol={true}
-              codeLink="https://github.com/isabellberzsenyi/Simple-Resume-HTML"
-              demoLink="https://isabellberzsenyi.github.io"
-              project="calculator"
-            />
-          </Col>
-          <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
-            <ProjectCardReact
-              title="Tic Tac Toe"
-              attributes="Solo, Personal, React"
-              image={tictactoe}
-              alt="oops"
-              classname="Tic-Tac-Toe"
-              codeBol={true}
-              codeLink="https://github.com/isabellberzsenyi/Simple-Resume-HTML"
-              demoLink="https://isabellberzsenyi.github.io"
-              project="tictactoe"
-            />
-          </Col>
-        </Row>
-        <Row style={{ margin: "auto", paddingTop: "10px" }}>
-          <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
-            <ProjectCardReact
-              title="Weather App"
-              attributes="Solo, Personal, React"
-              image={weather}
-              alt="oops"
-              classname="Weather-App"
-              codeBol={true}
-              codeLink="https://github.com/isabellberzsenyi/Simple-Resume-HTML"
-              demoLink="https://isabellberzsenyi.github.io"
-              project="weatherapp"
-            />
-          </Col>
-          <Col md={{ size: 4 }} style={{ margin: "auto", paddingTop: "10px" }}>
-            <ProjectCardReact
-              title="To Do List"
-              attributes="Solo, Personal, React"
-              image={todolist}
-              alt="oops"
-              classname="To-Do-List"
-              codeBol={true}
-              codeLink="https://github.com/isabellberzsenyi/Simple-Resume-HTML"
-              demoLink="https://isabellberzsenyi.github.io"
-              project="todolist"
             />
           </Col>
         </Row>
